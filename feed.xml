@@ -7,7 +7,7 @@
     <title>AI小喇叭</title>
     <description>AI小喇叭，开始广播啦！AI生成的环球话题播客（实验性 · 免费 · 个人分享）：环球见闻、科技与AI、经济与生活、历史与文化。资料来自互联网公开信息（以英文资料为主），中文普通话播报，AI主播美舟主持。Meizon 出品。</description>
     <language>zh-cn</language>
-    <lastBuildDate>Thu, 09 Jul 2026 20:15:09 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 09 Jul 2026 22:59:11 GMT</lastBuildDate>
     <link>https://meizon.me</link>
     <atom:link href="https://meizon.me/feed.xml" rel="self" type="application/rss+xml"/>
     <itunes:author>美舟 · Meizon</itunes:author>
@@ -18,6 +18,17 @@
     <itunes:explicit>no</itunes:explicit>
     <itunes:type>episodic</itunes:type>
     <itunes:image href="https://meizon.me/cover.png"/>
+    <item>
+      <title>2026-07-09 每日见闻</title>
+      <description>大家好，我是美舟。AI小喇叭，开始广播啦！先说一句，本节目由人工智能生成，是一档个人兴趣分享——内容都整理自互联网上公开的资料，以英文的一手信息为主，只代表个人视角，供大家参考。今天是2026年7月9号，星期四。 今天最热闹的，是人工智能这个圈子。就在这一两天，全球几家最顶尖的AI公司，几乎前后脚地，扎堆发布了各自最新、最强的模型，一个比一个宣称自己天下第一。这场面，本节目的制作人给它起了个特别贴切的名字，他说——这简直就是一届"前沿大模型的世界杯"。那今天，我们就从这场世界杯说起。 先交代一下背景。我们平时说的AI大模型，就是像ChatGPT、Claude这样的人工智能系统。眼下站在最前面的</description>
+      <enclosure url="https://meizon.me/episodes/2026-07-09.mp3" length="6526800" type="audio/mpeg"/>
+      <guid isPermaLink="true">https://meizon.me/episodes/2026-07-09.mp3</guid>
+      <pubDate>Thu, 09 Jul 2026 19:00:00 GMT</pubDate>
+      <itunes:duration>18:07</itunes:duration>
+      <itunes:author>美舟 · Meizon</itunes:author>
+      <itunes:summary>大家好，我是美舟。AI小喇叭，开始广播啦！先说一句，本节目由人工智能生成，是一档个人兴趣分享——内容都整理自互联网上公开的资料，以英文的一手信息为主，只代表个人视角，供大家参考。今天是2026年7月9号，星期四。 今天最热闹的，是人工智能这个圈子。就在这一两天，全球几家最顶尖的AI公司，几乎前后脚地，扎堆发布了各自最新、最强的模型，一个比一个宣称自己天下第一。这场面，本节目的制作人给它起了个特别贴切的名字，他说——这简直就是一届"前沿大模型的世界杯"。那今天，我们就从这场世界杯说起。 先交代一下背景。我们平时说的AI大模型，就是像ChatGPT、Claude这样的人工智能系统。眼下站在最前面的</itunes:summary>
+      <itunes:explicit>no</itunes:explicit>
+    </item>
     <item>
       <title>2026-07-08 每日见闻</title>
       <description>大家好，我是美舟，欢迎收听AI小喇叭。本播客由人工智能技术生成，今天这期内容主要整理自互联网上的公开信息。今天是2026年7月8号，星期三。 先说今天最重的一条：美国，又一次对伊朗动了手。而今年6月刚刚谈成、一度被寄予厚望的那纸停火协议，眼下基本已经名存实亡。 先把背景交代清楚。今年6月17号，在美国总统特朗普的推动下，美国和伊朗签了一份为期60天的停火备忘录。这份协议的内容不少：伊朗同意让全世界的船只，重新自由通过霍尔木兹海峡；作为交换，美国解除对伊朗的海上封锁，还松开了对伊朗石油出口的制裁。双方本打算利用这60天，好好谈一谈伊朗的核问题。当时特朗普把这份协议说得很高，甚至形容成伊朗的"无条</description>

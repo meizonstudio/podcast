@@ -3,101 +3,112 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>AI天闻台 · Meizon — AI生成的环球话题播客</title>
-<meta name="description" content="AI天闻台（Meizon 出品）— AI生成的环球话题播客：全球要闻、科技与AI、经济与生活、历史与文化。中文普通话播报，AI主播美舟主持。">
-<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E%F0%9F%93%A1%3C/text%3E%3C/svg%3E">
+<title>AI小喇叭 · Meizon — 开始广播啦！</title>
+<meta name="description" content="AI小喇叭，开始广播啦！AI生成的环球话题播客（实验性 · 免费 · 个人分享）：全球要闻、科技与AI、经济与生活、历史与文化。中文普通话播报，AI主播美舟主持。">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='18' fill='%231023a8'/%3E%3Ctext x='50' y='72' font-size='58' text-anchor='middle' fill='%23ffff55' font-family='sans-serif' font-weight='bold'%3E叭%3C/text%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=ZCOOL+QingKe+HuangYou&display=swap" rel="stylesheet">
 <style>
   :root{
-    --bg:#0b1020; --bg2:#070912; --panel:#12182e; --panel2:#171f3a;
-    --text:#e8ecf8; --muted:#9aa7c7; --accent:#569cd6; --gold:#ffc457;
-    --line:#243055; --radius:14px;
+    --blue:#1023a8; --blue-dk:#0a1878; --panel:#1636c0; --line:#8a9aee;
+    --gray:#aaaaaa; --ink:#111111; --yellow:#ffff55; --cyan:#55ffff;
+    --white:#f2f4ff; --muted:#b9c4f2;
+    --disp:'ZCOOL QingKe HuangYou','Microsoft YaHei','PingFang SC',sans-serif;
+    --body:'Microsoft YaHei','PingFang SC','Noto Sans SC',sans-serif;
   }
   *{margin:0;padding:0;box-sizing:border-box}
-  body{
-    font-family:"PingFang SC","Microsoft YaHei","Noto Sans SC",system-ui,sans-serif;
-    background:linear-gradient(180deg,var(--bg) 0%,var(--bg2) 100%);
-    color:var(--text); line-height:1.75; min-height:100vh;
-  }
-  .wrap{max-width:720px;margin:0 auto;padding:0 22px 60px}
+  html{scroll-behavior:smooth}
+  body{background:var(--blue);color:var(--white);font-family:var(--body);line-height:1.8;padding-bottom:64px}
 
-  /* ---- hero ---- */
-  header{position:relative;text-align:center;padding:72px 0 44px;overflow:hidden}
-  .arcs{position:absolute;left:50%;top:100%;transform:translateX(-50%);width:1200px;height:1200px;pointer-events:none}
-  .arcs circle{fill:none;stroke:var(--accent);stroke-width:1.2}
-  .beacon{width:10px;height:10px;border-radius:50%;background:var(--gold);margin:0 auto 14px;box-shadow:0 0 14px 3px rgba(255,196,87,.55)}
-  .ai{color:var(--accent);font-weight:700;font-size:1.35rem;letter-spacing:.35em;margin-left:.35em}
-  h1{font-size:3.1rem;font-weight:700;letter-spacing:.06em;margin:2px 0 10px}
-  .en{color:var(--muted);letter-spacing:.55em;margin-left:.55em;font-size:.95rem}
-  .tagline{color:var(--muted);margin-top:18px;font-size:1.05rem}
+  /* top menu bar */
+  nav{background:var(--gray);color:var(--ink);display:flex;gap:4px;align-items:center;padding:6px 14px;font-family:var(--disp);font-size:17px}
+  nav a{color:var(--ink);text-decoration:none;padding:2px 12px}
+  nav a.on,nav a:hover{background:var(--blue);color:#fff}
+  nav .site{margin-left:auto;letter-spacing:.08em}
 
-  /* ---- sections ---- */
-  section{margin-top:46px}
-  h2{font-size:1.25rem;font-weight:700;margin-bottom:14px;display:flex;align-items:center;gap:10px}
-  h2::before{content:"";display:inline-block;width:22px;height:2px;background:var(--accent);border-radius:2px}
-  p{color:var(--text)}
-  .muted{color:var(--muted)}
-  .card{background:var(--panel);border:1px solid var(--line);border-radius:var(--radius);padding:22px 24px}
-  .card+.card{margin-top:14px}
+  .wrap{max-width:760px;margin:0 auto;padding:0 20px 40px}
 
-  /* ---- subscribe ---- */
-  .feedrow{display:flex;gap:10px;margin:14px 0 8px;flex-wrap:wrap}
-  .feedurl{
-    flex:1;min-width:240px;background:#0a0f22;border:1px solid var(--line);border-radius:10px;
-    padding:12px 14px;font-family:Consolas,Menlo,monospace;font-size:.95rem;color:var(--gold);
-    overflow-x:auto;white-space:nowrap;
-  }
-  button.copy{
-    background:var(--accent);border:none;border-radius:10px;color:#08101f;font-weight:700;
-    padding:12px 22px;font-size:.95rem;cursor:pointer;font-family:inherit;
-  }
+  /* hero */
+  header{text-align:center;padding:52px 0 36px}
+  .blocks{display:flex;gap:10px;justify-content:center;flex-wrap:wrap}
+  .blk{font-family:var(--disp);font-size:52px;line-height:1;padding:14px 18px;border-radius:12px;color:var(--ink)}
+  .b1{background:#ff5555}.b2{background:#ffff55}.b3{background:#55ffff}.b4{background:#55ff55}.b5{background:#ff55ff}
+  .slogan{font-family:var(--disp);color:var(--yellow);font-size:30px;margin-top:26px}
+  .slogan .cur{animation:blink 1s step-end infinite}
+  @keyframes blink{0%,49%{opacity:1}50%,100%{opacity:0}}
+  .tags{margin-top:14px;display:flex;gap:8px;justify-content:center;flex-wrap:wrap}
+  .tags span{border:1px solid var(--line);color:var(--muted);font-size:13.5px;padding:2px 14px;border-radius:999px}
+
+  section{margin-top:44px}
+  h2{font-family:var(--disp);font-size:24px;color:var(--yellow);margin-bottom:14px;font-weight:400}
+  h2 .fk{background:var(--gray);color:var(--ink);font-size:15px;padding:2px 10px;border-radius:4px;vertical-align:4px;margin-right:10px}
+  .box{border:1px solid var(--line);padding:20px 24px}
+  .box p{color:var(--white)}
+  .box p.dim{color:var(--muted);margin-top:10px;font-size:15px}
+
+  /* subscribe */
+  .feedrow{display:flex;gap:10px;margin:14px 0 10px;flex-wrap:wrap}
+  .feedurl{flex:1;min-width:250px;background:var(--blue-dk);border:1px solid var(--line);padding:10px 16px;
+    font-family:var(--disp);font-size:19px;color:var(--cyan);overflow-x:auto;white-space:nowrap}
+  button.copy{background:var(--yellow);border:none;color:var(--ink);font-family:var(--disp);font-size:18px;padding:10px 26px;cursor:pointer}
   button.copy:active{transform:scale(.97)}
-  ol.steps{margin:10px 0 0 1.3em;color:var(--muted)}
-  ol.steps li{margin:6px 0}
-  ol.steps b{color:var(--text);font-weight:600}
-  .apps{display:flex;flex-wrap:wrap;gap:8px;margin-top:12px}
-  .apps span{background:var(--panel2);border:1px solid var(--line);border-radius:999px;padding:5px 14px;font-size:.88rem;color:var(--muted)}
+  ol.steps{margin:12px 0 0 1.4em;color:var(--muted);font-size:15px}
+  ol.steps li{margin:7px 0}
+  ol.steps b{color:var(--white);font-weight:600}
 
-  /* ---- episodes ---- */
-  .ep{padding:16px 0;border-bottom:1px solid var(--line)}
+  /* episodes */
+  .eplist{border:1px solid var(--line);padding:2px}
+  .ep{display:flex;align-items:center;gap:12px;padding:11px 14px;border-bottom:1px solid rgba(138,154,238,.35);flex-wrap:wrap}
   .ep:last-child{border-bottom:none}
-  .ep h3{font-size:1.02rem;font-weight:600;margin-bottom:4px}
-  .ep .meta{font-size:.85rem;color:var(--muted);margin-bottom:10px}
-  .ep audio{width:100%;height:36px}
-  #eps-fallback a{color:var(--accent)}
+  .ep:nth-child(odd){background:var(--panel)}
+  .ep .date{font-family:var(--disp);color:var(--muted);font-size:16px;flex:none}
+  .ep .t{flex:1;min-width:200px;font-size:15.5px;color:var(--white)}
+  .ep button.play{background:var(--cyan);border:none;color:var(--ink);font-family:var(--disp);font-size:16px;padding:4px 16px;cursor:pointer;flex:none}
+  .ep audio{width:100%;height:34px;margin-top:8px}
+  #eps-note a{color:var(--cyan)}
 
-  footer{margin-top:56px;padding-top:22px;border-top:1px solid var(--line);text-align:center;color:var(--muted);font-size:.85rem}
-  footer .sig{margin-top:6px;letter-spacing:.2em}
-  @media (max-width:520px){ h1{font-size:2.3rem} .arcs{width:900px;height:900px} }
+  footer{margin-top:52px;border-top:1px solid var(--line);padding-top:20px;text-align:center;color:var(--muted);font-size:13.5px}
+  footer .sig{font-family:var(--disp);letter-spacing:.25em;margin-top:8px;color:var(--white)}
+
+  /* bottom F-key bar */
+  .fbar{position:fixed;left:0;right:0;bottom:0;background:var(--gray);color:var(--ink);display:flex;gap:2px;
+    font-family:var(--disp);font-size:15.5px;padding:6px 12px;overflow-x:auto;white-space:nowrap}
+  .fbar a{color:var(--ink);text-decoration:none;padding:2px 12px}
+  .fbar a:hover{background:var(--blue);color:#fff}
+  .fbar .esc{margin-left:auto}
+  @media (max-width:560px){ .blk{font-size:38px;padding:11px 14px} .slogan{font-size:23px} }
 </style>
 </head>
 <body>
+<nav>
+  <a href="#eps" class="on">节目</a><a href="#sub">订阅</a><a href="#about">关于</a>
+  <span class="site">MEIZON.ME</span>
+</nav>
+
 <header>
-  <svg class="arcs" viewBox="0 0 1200 1200" aria-hidden="true">
-    <circle cx="600" cy="600" r="180" opacity=".45"/>
-    <circle cx="600" cy="600" r="310" opacity=".34"/>
-    <circle cx="600" cy="600" r="440" opacity=".24"/>
-    <circle cx="600" cy="600" r="570" opacity=".15"/>
-  </svg>
-  <div class="beacon"></div>
-  <div class="ai">AI</div>
-  <h1>天闻台</h1>
-  <div class="en">MEIZON</div>
-  <p class="tagline">AI 生成的环球话题播客 · 中文普通话播报 · AI 主播「美舟」主持</p>
+  <div class="blocks">
+    <span class="blk b1">A</span><span class="blk b2">I</span><span class="blk b3">小</span><span class="blk b4">喇</span><span class="blk b5">叭</span>
+  </div>
+  <p class="slogan">「AI小喇叭，开始广播啦！」<span class="cur">▌</span></p>
+  <div class="tags">
+    <span>AI 生成的环球话题播客</span><span>实验项目</span><span>完全免费</span><span>个人分享</span><span>美舟主持</span>
+  </div>
 </header>
 
 <div class="wrap">
 
-  <section>
-    <h2>关于本台</h2>
-    <div class="card">
-      <p>「AI天闻台」是一档由人工智能制作的中文播客——从选题研究、撰稿到播报，均由 AI 完成，内容整理自路透社、美联社、华尔街日报等国际英文新闻源，并经过独立的事实核查流程。</p>
-      <p class="muted" style="margin-top:10px">节目不止于新闻：全球要闻、科技与 AI、经济与个人理财、历史与文化专题、音乐特辑……凡是值得与你分享的环球见闻，都是我们的选题。每期约 10–30 分钟，更新频繁、不设固定周期。</p>
+  <section id="eps">
+    <h2><span class="fk">F5</span>最新节目</h2>
+    <div class="eplist" id="eplist">
+      <div class="ep"><span class="t" id="eps-note">正在读取节目单… 若长时间未显示，请直接订阅 <a href="/feed.xml">RSS 源</a>。</span></div>
     </div>
+    <p style="color:var(--muted);font-size:13.5px;margin-top:8px">点「播放」即可直接在本页收听，无需安装任何 App。</p>
   </section>
 
-  <section>
-    <h2>订阅收听</h2>
-    <div class="card">
+  <section id="sub">
+    <h2><span class="fk">F9</span>订阅收听</h2>
+    <div class="box">
       <p>在支持 RSS 的播客 App 中添加以下订阅地址，即可自动接收每期更新：</p>
       <div class="feedrow">
         <div class="feedurl" id="feedurl">https://meizon.me/feed.xml</div>
@@ -108,17 +119,16 @@
         <li><b>Overcast / Pocket Casts / Castro</b>：添加节目 → <b>Add by URL</b> → 粘贴地址</li>
         <li><b>AntennaPod</b>（安卓，免费开源）：添加播客 → <b>RSS 地址</b> → 粘贴地址</li>
       </ol>
-      <div class="apps">
-        <span>Apple 播客</span><span>Overcast</span><span>Pocket Casts</span><span>Castro</span><span>AntennaPod</span><span>moon FM</span>
-      </div>
-      <p class="muted" style="margin-top:12px;font-size:.88rem">提示：Spotify 与小宇宙暂不支持添加自定义 RSS 订阅；也可以直接在下方网页试听。</p>
+      <p class="dim">提示：Spotify 与小宇宙暂不支持添加自定义 RSS；也可以直接在上方节目单里点「播放」网页收听。</p>
     </div>
   </section>
 
-  <section>
-    <h2>最新节目</h2>
-    <div class="card">
-      <div id="eps"><p class="muted" id="eps-fallback">正在加载节目列表… 若长时间未显示，请直接订阅 <a href="/feed.xml">RSS 源</a>。</p></div>
+  <section id="about">
+    <h2><span class="fk">F1</span>关于本台</h2>
+    <div class="box">
+      <p>「AI小喇叭」是一档由人工智能制作的中文播客——选题、研究、撰稿、播报全部由 AI 完成，内容整理自路透社、美联社、华尔街日报等国际英文新闻源，并经过独立的事实核查流程。</p>
+      <p class="dim">这是一个实验性的个人分享项目，完全免费。节目不止于新闻：全球要闻、科技与 AI、经济与个人理财、历史与文化专题、音乐特辑……凡是值得分享的环球见闻，都是选题。每期约 10–30 分钟，更新频繁、不设固定周期。</p>
+      <p class="dim">台名致敬 1956 年开播的少儿广播节目《小喇叭》——「小喇叭开始广播啦」，是一代人打开世界的声音。如今换成 AI 来吹这把小喇叭。</p>
     </div>
   </section>
 
@@ -128,40 +138,57 @@
   </footer>
 </div>
 
+<div class="fbar">
+  <a href="#about">F1 关于</a><a href="#eps">F5 节目</a><a href="#sub">F9 订阅</a>
+  <a href="#" class="esc" onclick="window.scrollTo({top:0,behavior:'smooth'});return false;">Esc 回到顶部</a>
+</div>
+
 <script>
 function copyFeed(){
   var url = document.getElementById('feedurl').textContent.trim();
   var btn = document.getElementById('copybtn');
-  function ok(){ btn.textContent = '已复制 ✓'; setTimeout(function(){ btn.textContent = '复制'; }, 2000); }
-  if (navigator.clipboard && navigator.clipboard.writeText) {
-    navigator.clipboard.writeText(url).then(ok, function(){ fallback(); });
-  } else { fallback(); }
+  function ok(){ btn.textContent = '已复制'; setTimeout(function(){ btn.textContent = '复制'; }, 2000); }
   function fallback(){
     var ta = document.createElement('textarea'); ta.value = url; document.body.appendChild(ta);
     ta.select(); try { document.execCommand('copy'); ok(); } catch(e){} document.body.removeChild(ta);
   }
+  if (navigator.clipboard && navigator.clipboard.writeText) {
+    navigator.clipboard.writeText(url).then(ok, fallback);
+  } else { fallback(); }
 }
 
-/* Load the newest episodes from the same-origin feed. */
+document.addEventListener('keydown', function(e){
+  if (e.key === 'Escape') window.scrollTo({top:0, behavior:'smooth'});
+});
+
 fetch('/feed.xml').then(function(r){ return r.text(); }).then(function(xml){
   var doc = new DOMParser().parseFromString(xml, 'text/xml');
-  var items = Array.prototype.slice.call(doc.querySelectorAll('item'), 0, 6);
+  var items = Array.prototype.slice.call(doc.querySelectorAll('item'), 0, 8);
   if (!items.length) return;
-  var box = document.getElementById('eps'); box.innerHTML = '';
+  var box = document.getElementById('eplist'); box.innerHTML = '';
   items.forEach(function(it){
     function txt(tag){ var n = it.getElementsByTagName(tag)[0]; return n ? n.textContent : ''; }
     var enc = it.getElementsByTagName('enclosure')[0];
     var url = enc ? enc.getAttribute('url') : '';
-    var date = txt('pubDate'); var d = date ? new Date(date) : null;
-    var dstr = d ? (d.getFullYear() + '年' + (d.getMonth()+1) + '月' + d.getDate() + '日') : '';
-    var div = document.createElement('div'); div.className = 'ep';
-    var h = document.createElement('h3'); h.textContent = txt('title');
-    var m = document.createElement('div'); m.className = 'meta'; m.textContent = dstr;
-    div.appendChild(h); div.appendChild(m);
-    if (url) { var a = document.createElement('audio'); a.controls = true; a.preload = 'none'; a.src = url; div.appendChild(a); }
-    box.appendChild(div);
+    var pd = txt('pubDate'); var dt = pd ? new Date(pd) : null;
+    var dstr = dt ? ((dt.getMonth()+1) + '-' + String(dt.getDate()).padStart(2,'0')) : '';
+    var row = document.createElement('div'); row.className = 'ep';
+    var ds = document.createElement('span'); ds.className = 'date'; ds.textContent = dstr;
+    var t = document.createElement('span'); t.className = 't'; t.textContent = txt('title');
+    row.appendChild(ds); row.appendChild(t);
+    if (url) {
+      var b = document.createElement('button'); b.className = 'play'; b.textContent = '► 播放';
+      b.onclick = function(){
+        var old = row.querySelector('audio');
+        if (old) { old.paused ? old.play() : old.pause(); return; }
+        var a = document.createElement('audio'); a.controls = true; a.autoplay = true; a.src = url;
+        row.appendChild(a); b.textContent = '► 播放中';
+      };
+      row.appendChild(b);
+    }
+    box.appendChild(row);
   });
-}).catch(function(){ /* fallback text stays */ });
+}).catch(function(){});
 </script>
 </body>
 </html>

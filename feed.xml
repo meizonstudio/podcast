@@ -4,14 +4,14 @@
   xmlns:content="http://purl.org/rss/1.0/modules/content/"
   xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>AI天闻台</title>
-    <description>AI天闻台 — AI生成的环球话题播客。全球要闻、科技与AI、经济与生活、历史与文化，中文普通话播报，由AI主播美舟主持。Meizon 出品。</description>
+    <title>AI小喇叭</title>
+    <description>AI小喇叭，开始广播啦！AI生成的环球话题播客（实验性 · 免费 · 个人分享）：全球要闻、科技与AI、经济与生活、历史与文化。中文普通话播报，AI主播美舟主持。Meizon 出品。</description>
     <language>zh-cn</language>
-    <lastBuildDate>Thu, 09 Jul 2026 18:55:05 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 09 Jul 2026 19:23:56 GMT</lastBuildDate>
     <link>https://meizon.me</link>
     <atom:link href="https://meizon.me/feed.xml" rel="self" type="application/rss+xml"/>
     <itunes:author>美舟 · Meizon</itunes:author>
-    <itunes:summary>AI天闻台 — AI生成的环球话题播客。全球要闻、科技与AI、经济与生活、历史与文化，中文普通话播报，由AI主播美舟主持。Meizon 出品。</itunes:summary>
+    <itunes:summary>AI小喇叭，开始广播啦！AI生成的环球话题播客（实验性 · 免费 · 个人分享）：全球要闻、科技与AI、经济与生活、历史与文化。中文普通话播报，AI主播美舟主持。Meizon 出品。</itunes:summary>
     <itunes:category text="News">
       <itunes:category text="News Commentary"/>
     </itunes:category>

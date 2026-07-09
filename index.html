@@ -4,187 +4,207 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>AI小喇叭 · Meizon — 开始广播啦！</title>
-<meta name="description" content="AI小喇叭，开始广播啦！AI生成的环球话题播客（实验性 · 免费 · 个人分享）：环球见闻、科技与AI、经济与生活、历史与文化。资料来自互联网公开信息，中文普通话播报，AI主播美舟主持。">
+<meta name="description" content="AI小喇叭，开始广播啦！AI生成的环球话题播客（实验性 · 免费 · 个人分享）。资料来自互联网公开信息，中文普通话播报，AI主播美舟主持。">
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' fill='%231023a8'/%3E%3Ctext x='50' y='72' font-size='58' text-anchor='middle' fill='%23ffff55' font-family='sans-serif' font-weight='bold'%3E叭%3C/text%3E%3C/svg%3E">
 <style>
   :root{
-    --blue:#1023a8; --blue-dk:#0a1878; --shadow:rgba(3,8,40,.55); --line:#c9d2ff;
-    --gray:#b8b8b8; --gray-dk:#8f8f8f; --ink:#111111; --yellow:#ffff55; --cyan:#55ffff;
-    --white:#f2f4ff; --muted:#b9c4f2; --seal:#d6402a;
+    --canvas:#1023a8; --canvas-dk:#0a1878; --shadow:rgba(3,8,40,.55); --line:#c9d2ff;
+    --ink:#f2f4ff; --muted:#b9c4f2; --link:#55ffff; --em:#ffff55;
+    --chrome-bg:#b8b8b8; --chrome-ink:#111111;
+    --dlg-bg:#b8b8b8; --dlg-ink:#111111; --dlg-dim:#3d3d3d; --dlg-accent:#0a1878;
+    --bev-hi:#ffffff; --bev-lo:#5e5e5e;
     --body:'Microsoft YaHei','PingFang SC','Noto Sans SC',sans-serif;
     --mono:Consolas,'Courier New',monospace;
   }
+  body[data-theme="green"]{
+    --canvas:#02180a; --canvas-dk:#010f06; --shadow:rgba(0,0,0,.6); --line:#2f9e57;
+    --ink:#8effb0; --muted:#3fae63; --link:#c8ffda; --em:#e4ffa8;
+    --chrome-bg:#0a3d1c; --chrome-ink:#8effb0;
+    --dlg-bg:#07300f; --dlg-ink:#8effb0; --dlg-dim:#3fae63; --dlg-accent:#c8ffda;
+    --bev-hi:#2f9e57; --bev-lo:#021a08;
+  }
+  body[data-theme="amber"]{
+    --canvas:#1c1000; --canvas-dk:#120a00; --shadow:rgba(0,0,0,.6); --line:#b07c1e;
+    --ink:#ffc75a; --muted:#a8802e; --link:#ffe3a0; --em:#fff2c8;
+    --chrome-bg:#3d2a05; --chrome-ink:#ffc75a;
+    --dlg-bg:#2c1f04; --dlg-ink:#ffc75a; --dlg-dim:#a8802e; --dlg-accent:#ffe3a0;
+    --bev-hi:#b07c1e; --bev-lo:#120a00;
+  }
   *{margin:0;padding:0;box-sizing:border-box;border-radius:0!important}
   html{scroll-behavior:smooth}
-  body{background:var(--blue);color:var(--white);font-family:var(--body);line-height:1.8;padding-bottom:70px}
-  ::selection{background:var(--cyan);color:var(--ink)}
+  body{background:var(--canvas);color:var(--ink);font-family:var(--body);line-height:1.8;padding-bottom:70px}
+  ::selection{background:var(--link);color:#111}
   body::after{content:'';position:fixed;inset:0;pointer-events:none;z-index:99;
     background:repeating-linear-gradient(0deg,rgba(0,0,0,.07) 0 1px,transparent 1px 3px)}
 
-  /* BIOS boot strip */
-  .bios{background:#000;color:#9a9a9a;font-family:var(--mono);font-size:12px;padding:4px 14px;letter-spacing:.02em}
+  .bios{background:#000;color:#9a9a9a;font-family:var(--mono);font-size:12px;padding:4px 14px}
   .bios b{color:#d8d8d8;font-weight:400}
 
-  /* top menu bar */
-  nav{background:var(--gray);color:var(--ink);display:flex;gap:2px;align-items:center;padding:5px 12px;font-size:15px}
-  nav a{color:var(--ink);text-decoration:none;padding:2px 14px}
-  nav a.on,nav a:hover{background:var(--blue);color:#fff}
+  nav{background:var(--chrome-bg);color:var(--chrome-ink);display:flex;gap:2px;align-items:center;padding:5px 12px;font-size:15px}
+  nav a{color:var(--chrome-ink);text-decoration:none;padding:2px 14px}
+  nav a:hover{background:var(--canvas);color:var(--ink)}
   nav .site{margin-left:auto;font-family:var(--mono);font-size:13.5px;letter-spacing:.06em}
 
   .wrap{max-width:780px;margin:0 auto;padding:0 22px 44px}
 
-  /* DOS window: double border + embedded title + hard shadow */
+  /* hero — the ONE blue window with the colorful logo */
   .win{position:relative;border:3px double var(--line);box-shadow:10px 10px 0 var(--shadow);
-    background:var(--blue);margin-top:56px;padding:26px 26px 24px}
-  .win>.wt{position:absolute;top:-15px;left:22px;background:var(--blue);padding:0 10px;
-    color:var(--yellow);font-size:15.5px;white-space:nowrap}
+    background:var(--canvas);margin-top:56px;padding:30px 26px 26px;text-align:center}
+  .win>.wt{position:absolute;top:-15px;left:22px;background:var(--canvas);padding:0 10px;
+    color:var(--em);font-size:15.5px;white-space:nowrap}
   .win>.wt::before{content:'╡ ';color:var(--line);font-family:var(--mono)}
   .win>.wt::after{content:' ╞';color:var(--line);font-family:var(--mono)}
-  .win>.wx{position:absolute;top:-15px;right:18px;background:var(--blue);padding:0 6px;
+  .win>.wx{position:absolute;top:-15px;right:18px;background:var(--canvas);padding:0 6px;
     color:var(--line);font-family:var(--mono);font-size:15px}
 
-  /* hero */
-  .hero{text-align:center}
-  .blocks{display:flex;gap:10px;justify-content:center;flex-wrap:wrap}
-  .blk{font-size:46px;line-height:1;font-weight:700;padding:14px 17px;color:var(--ink)}
+  .blockwrap{position:relative;display:inline-block}
+  .horn{position:absolute;top:-34px;right:-26px;z-index:0}
+  .blocks{position:relative;z-index:1;display:flex;gap:10px;justify-content:center}
+  .blk{width:78px;height:78px;display:flex;align-items:center;justify-content:center;
+    font-size:44px;font-weight:700;color:#111}
   .b1{background:#ff5555}.b2{background:#ffff55}.b3{background:#55ffff}.b4{background:#55ff55}.b5{background:#ff55ff}
-  .slogan{color:var(--yellow);font-size:26px;font-weight:700;margin-top:24px}
+  .slogan{color:var(--em);font-size:25px;font-weight:700;margin-top:24px}
   .slogan .cur{animation:blink 1s step-end infinite;font-family:var(--mono);font-weight:400}
   @keyframes blink{0%,49%{opacity:1}50%,100%{opacity:0}}
-  .tagline{margin-top:12px;color:var(--white);font-size:15px}
-  .tags{margin-top:6px;color:var(--cyan);font-size:13.5px}
+  .tagline{margin-top:10px;color:var(--muted);font-size:14.5px}
+  .tags{margin-top:4px;color:var(--link);font-size:13.5px}
   .tags span{margin:0 6px;white-space:nowrap}
 
-  h2{display:none}
-
-  /* episode list — file-browser style */
-  .ephead{display:flex;gap:12px;padding:4px 14px;color:var(--yellow);font-size:13px;border-bottom:1px solid var(--line)}
-  .ephead .c1{width:70px;flex:none}.ephead .c2{flex:1}
-  .ep{display:flex;align-items:center;gap:12px;padding:9px 14px;border-bottom:1px dotted rgba(201,210,255,.35);flex-wrap:wrap;cursor:default}
-  .ep:last-child{border-bottom:none}
-  .ep .date{color:var(--cyan);font-size:14px;width:70px;flex:none}
-  .newbadge{background:var(--yellow);color:var(--ink);font-size:11.5px;font-weight:700;padding:0 7px;margin-left:8px;animation:blink 1.2s step-end infinite}
-  .ep:hover .newbadge{background:var(--ink);color:var(--yellow)}
-  .ep .t{flex:1;min-width:200px;font-size:15px;color:var(--white)}
-  .ep .play{color:var(--yellow);font-size:14.5px;cursor:pointer;flex:none;background:none;border:none;font-family:var(--body)}
-  .ep:hover{background:var(--cyan)}
-  .ep:hover .date,.ep:hover .t,.ep:hover .play{color:var(--ink)}
-  .ep audio{width:100%;height:34px;margin-top:8px}
-  .epnote{color:var(--muted);font-size:13px;margin-top:10px}
-  #eps-note a{color:var(--cyan)}
-
-  /* gray dialog box (subscribe) */
-  .dlg{background:var(--gray);color:var(--ink);border:2px solid #fff;border-right-color:#666;border-bottom-color:#666;
+  /* unified gray dialog for all sections */
+  .dlg{background:var(--dlg-bg);color:var(--dlg-ink);
+    border:2px solid var(--bev-hi);border-right-color:var(--bev-lo);border-bottom-color:var(--bev-lo);
     box-shadow:10px 10px 0 var(--shadow);margin-top:56px;position:relative;padding:24px 26px 22px}
-  .dlg>.wt{position:absolute;top:-15px;left:22px;background:var(--gray);padding:0 10px;color:var(--ink);font-size:15.5px;font-weight:700}
-  .dlg p{color:var(--ink)}
-  .dlg .dim{color:#3d3d3d;font-size:13.5px;margin-top:10px}
+  .dlg>.wt{position:absolute;top:-15px;left:22px;background:var(--dlg-bg);padding:0 10px;
+    color:var(--dlg-ink);font-size:15.5px;font-weight:700}
+  .dlg p{color:var(--dlg-ink);font-size:14.5px}
+  .dlg .dim{color:var(--dlg-dim);font-size:13.5px;margin-top:10px}
+
+  /* episode list rows */
+  .ephead{display:flex;gap:12px;padding:2px 12px 6px;color:var(--dlg-dim);font-size:12.5px;border-bottom:1px solid var(--dlg-dim)}
+  .ephead .c1{width:70px;flex:none}.ephead .c2{flex:1}
+  .ep{display:flex;align-items:center;gap:12px;padding:9px 12px;border-bottom:1px dotted var(--dlg-dim);flex-wrap:wrap}
+  .ep:last-child{border-bottom:none}
+  .ep .date{color:var(--dlg-accent);font-size:14px;width:70px;flex:none}
+  .ep .t{flex:1;min-width:200px;font-size:15px;color:var(--dlg-ink)}
+  .ep .play{background:var(--dlg-bg);border:2px solid var(--bev-hi);border-right-color:var(--bev-lo);border-bottom-color:var(--bev-lo);
+    color:var(--dlg-ink);font-size:13.5px;cursor:pointer;flex:none;font-family:var(--body);padding:2px 12px}
+  .ep .play:active{transform:translate(1px,1px)}
+  .ep:hover{background:var(--dlg-accent)}
+  .ep:hover .date,.ep:hover .t{color:var(--dlg-bg)}
+  .ep audio{width:100%;height:34px;margin-top:8px}
+  .newbadge{background:#ffff55;color:#111;font-size:11.5px;font-weight:700;padding:0 7px;margin-left:8px;animation:blink 1.2s step-end infinite}
+  #eps-note a{color:var(--dlg-accent)}
+
   .feedrow{display:flex;gap:12px;margin:14px 0 12px;flex-wrap:wrap}
-  .feedurl{flex:1;min-width:250px;background:#fff;border:2px solid #666;border-right-color:#fff;border-bottom-color:#fff;
+  .feedurl{flex:1;min-width:250px;background:#fff;border:2px solid var(--bev-lo);border-right-color:var(--bev-hi);border-bottom-color:var(--bev-hi);
     padding:9px 14px;font-family:var(--mono);font-size:15.5px;color:#0a1878;overflow-x:auto;white-space:nowrap}
-  button.dbtn{background:var(--gray);border:2px solid #fff;border-right-color:#555;border-bottom-color:#555;
-    color:var(--ink);font-family:var(--body);font-size:15px;font-weight:700;padding:8px 22px;cursor:pointer;
+  body[data-theme="green"] .feedurl,body[data-theme="amber"] .feedurl{background:#000;color:var(--link)}
+  button.dbtn{background:var(--dlg-bg);border:2px solid var(--bev-hi);border-right-color:var(--bev-lo);border-bottom-color:var(--bev-lo);
+    color:var(--dlg-ink);font-family:var(--body);font-size:15px;font-weight:700;padding:8px 22px;cursor:pointer;
     box-shadow:4px 4px 0 rgba(0,0,0,.35)}
   button.dbtn:active{transform:translate(2px,2px);box-shadow:2px 2px 0 rgba(0,0,0,.35)}
-  ol.steps{margin:10px 0 0 1.4em;color:#222;font-size:14.5px}
+  ol.steps{margin:10px 0 0 1.4em;color:var(--dlg-ink);font-size:14px}
   ol.steps li{margin:7px 0}
 
-  /* about + footer */
-  .about p{color:var(--white);font-size:15px}
-  .about p.dim{color:var(--muted);font-size:14px;margin-top:10px}
+  footer{margin-top:60px;text-align:center;color:var(--muted);font-size:13px}
+  footer .sig{margin-top:6px;font-size:13px;color:var(--muted)}
+  footer .sig .mono{font-family:var(--mono);letter-spacing:.15em}
 
-  footer{margin-top:64px;text-align:center;color:var(--muted);font-size:13px}
-  .brand{height:58px;margin-bottom:10px}
-  footer .sig{font-family:var(--mono);letter-spacing:.3em;margin-top:6px;color:var(--white);font-size:12.5px}
-
-  /* bottom F-key bar */
-  .fbar{position:fixed;left:0;right:0;bottom:0;z-index:100;background:var(--gray);color:var(--ink);display:flex;gap:2px;
+  .fbar{position:fixed;left:0;right:0;bottom:0;z-index:100;background:var(--chrome-bg);color:var(--chrome-ink);display:flex;gap:2px;
     font-size:14px;padding:5px 12px;overflow-x:auto;white-space:nowrap}
-  .fbar a{color:var(--ink);text-decoration:none;padding:2px 12px}
+  .fbar a{color:var(--chrome-ink);text-decoration:none;padding:2px 12px;cursor:pointer}
   .fbar a b{font-family:var(--mono);font-weight:700;margin-right:4px}
-  .fbar a:hover{background:var(--blue);color:#fff}
-  .fbar a:hover b{color:#fff}
+  .fbar a:hover{background:var(--canvas);color:var(--ink)}
+  .fbar a:hover b{color:var(--ink)}
   .fbar .esc{margin-left:auto}
-  @media (max-width:560px){ .blk{font-size:36px;padding:11px 13px} .slogan{font-size:21px} .win,.dlg{padding:20px 16px 18px} }
+  @media (max-width:560px){ .blk{width:56px;height:56px;font-size:32px} .slogan{font-size:20px} .horn{top:-28px;right:-14px;width:56px} .win,.dlg{padding:22px 16px 18px} }
 </style>
 </head>
 <body>
 <div class="bios">Meizon Modular BIOS v2.0 · 内存检测 <b>640K OK</b> · 已加载中文字库 · 正在启动 <b>AI小喇叭.EXE</b> ▂</div>
 <nav>
-  <a href="#eps" class="on">节目</a><a href="#sub">订阅</a><a href="#about">关于</a>
+  <a href="#eps">节目</a><a href="#sub">订阅</a><a href="#about">关于</a>
   <span class="site">MEIZON.ME</span>
 </nav>
 
 <div class="wrap">
 
-  <div class="win hero">
+  <div class="win">
     <span class="wt">C:\MEIZON\AI小喇叭.EXE</span><span class="wx">[■]</span>
-    <svg class="horn" width="72" height="48" viewBox="0 0 12 8" aria-label="喇叭" role="img" style="display:block;margin:0 auto 14px;image-rendering:pixelated">
-      <g fill="#ffff55">
-        <rect x="0" y="3" width="2" height="2"/>
-        <rect x="2" y="2" width="2" height="4"/>
-        <rect x="4" y="1" width="1" height="6"/>
-        <rect x="5" y="0" width="1" height="8"/>
-      </g>
-      <g fill="#55ffff">
-        <rect x="7" y="3" width="1" height="2"/>
-        <rect x="9" y="1" width="1" height="1"/>
-        <rect x="9" y="6" width="1" height="1"/>
-        <rect x="10" y="3" width="1" height="2"/>
-      </g>
-    </svg>
-    <div class="blocks">
-      <span class="blk b1">A</span><span class="blk b2">I</span><span class="blk b3">小</span><span class="blk b4">喇</span><span class="blk b5">叭</span>
+    <div class="blockwrap">
+      <svg class="horn" width="72" height="48" viewBox="0 0 12 8" aria-label="喇叭" role="img" style="image-rendering:pixelated">
+        <g fill="#ffff55">
+          <rect x="0" y="3" width="2" height="2"/><rect x="2" y="2" width="2" height="4"/>
+          <rect x="4" y="1" width="1" height="6"/><rect x="5" y="0" width="1" height="8"/>
+        </g>
+        <g fill="#55ffff">
+          <rect x="7" y="3" width="1" height="2"/><rect x="9" y="1" width="1" height="1"/>
+          <rect x="9" y="6" width="1" height="1"/><rect x="10" y="3" width="1" height="2"/>
+        </g>
+      </svg>
+      <div class="blocks">
+        <span class="blk b1">A</span><span class="blk b2">I</span><span class="blk b3">小</span><span class="blk b4">喇</span><span class="blk b5">叭</span>
+      </div>
     </div>
     <p class="slogan">「AI小喇叭，开始广播啦！」<span class="cur">▌</span></p>
     <p class="tagline">AI 生成的环球话题播客 · 中文普通话 · AI 主播「美舟」主持</p>
     <p class="tags"><span>[ 实验项目 ]</span><span>[ 完全免费 ]</span><span>[ 个人分享 ]</span></p>
   </div>
 
-  <div class="win" id="eps">
-    <span class="wt">最新节目 · EPISODE.LST</span><span class="wx">[↕]</span>
+  <div class="dlg" id="eps">
+    <span class="wt">最新节目 · EPISODE.LST</span>
     <div class="ephead"><span class="c1">日期</span><span class="c2">节目</span><span>操作</span></div>
     <div id="eplist">
       <div class="ep"><span class="t" id="eps-note">正在读取节目单… 若长时间未显示，请直接订阅 <a href="/feed.xml">RSS 源</a>。</span></div>
     </div>
-    <p class="epnote">点「播放」即可直接在本页收听，无需安装任何 App——把本页加入浏览器书签（收藏夹），以后随时打开就能听最新一期。</p>
+    <p class="dim">点「播放」直接收听；把本页加入书签，以后随时打开听最新一期。</p>
   </div>
 
   <div class="dlg" id="sub">
-    <span class="wt">订阅收听</span>
-    <p>在支持 RSS 的播客 App 中添加以下订阅地址，即可自动接收每期更新：</p>
+    <span class="wt">订阅 · RSS</span>
+    <p>在播客 App 中添加订阅地址，自动接收每期更新：</p>
     <div class="feedrow">
       <div class="feedurl" id="feedurl">https://meizon.me/feed.xml</div>
       <button class="dbtn" id="copybtn" onclick="copyFeed()">[ 复制 ]</button>
     </div>
     <ol class="steps">
-      <li><b>Apple 播客</b>（iPhone 自带）：资料库 → 右上角「…」→ <b>关注 URL 的节目</b> → 粘贴地址</li>
-      <li><b>Overcast / Pocket Casts / Castro</b>：添加节目 → <b>Add by URL</b> → 粘贴地址</li>
-      <li><b>AntennaPod</b>（安卓，免费开源）：添加播客 → <b>RSS 地址</b> → 粘贴地址</li>
+      <li><b>Apple 播客</b>：资料库 → 「…」→ 关注 URL 的节目 → 粘贴</li>
+      <li><b>Overcast / Pocket Casts / Castro</b>：Add by URL → 粘贴</li>
+      <li><b>AntennaPod</b>（安卓）：添加播客 → RSS 地址 → 粘贴</li>
     </ol>
-    <p class="dim">提示：Spotify 与小宇宙暂不支持添加自定义 RSS；也可以直接在上方节目单里点「播放」网页收听。</p>
+    <p class="dim">Spotify 与小宇宙暂不支持自定义 RSS。</p>
   </div>
 
-  <div class="win about" id="about">
-    <span class="wt">关于 · README.TXT</span><span class="wx">[?]</span>
-    <p>「AI小喇叭」是一个实验性的个人分享项目，完全免费——一档由人工智能制作的中文播客：选题、研究、撰稿、播报全部由 AI 完成，资料来自互联网上的公开信息（以英文资料为主），并经过独立的事实核查流程。</p>
-    <p class="dim">聊的话题很杂：环球见闻、科技与 AI、经济与个人理财、历史与文化专题、音乐特辑……凡是值得分享的见闻，都是选题。每期约 10–30 分钟，更新频繁、不设固定周期。</p>
+  <div class="dlg" id="about">
+    <span class="wt">关于 · README.TXT</span>
+    <p>选题、研究、撰稿、播报全部由 AI 完成，资料来自互联网上的公开信息（以英文资料为主），并经过独立的事实核查。话题涵盖环球见闻、科技、经济、历史与音乐，每期约 10–30 分钟，更新不设固定周期。</p>
     <p class="dim">名字致敬 1956 年开播的少儿广播节目《小喇叭》——「小喇叭开始广播啦」，是一代人打开世界的声音。如今换成 AI 来吹这把小喇叭。</p>
   </div>
 
   <footer>
-    <img class="brand" src="/brand-meizhou.png" alt="美舟">
-    <p>本站与节目内容由人工智能生成，观点仅供参考交流。</p>
-    <p class="sig">MEIZON © 2026</p>
+    <p class="sig">美舟 · <span class="mono">MEIZON © 2026</span></p>
   </footer>
 </div>
 
 <div class="fbar">
-  <a href="#about"><b>F1</b>关于</a><a href="#eps"><b>F5</b>节目</a><a href="#sub"><b>F9</b>订阅</a>
+  <a href="#about"><b>F1</b>关于</a><a onclick="cycleTheme();return false;"><b>F2</b>换肤</a><a href="#eps"><b>F5</b>节目</a><a href="#sub"><b>F9</b>订阅</a>
   <a href="#" class="esc" onclick="window.scrollTo({top:0,behavior:'smooth'});return false;"><b>Esc</b>回到顶部</a>
 </div>
 
 <script>
+var THEMES = ['wps', 'green', 'amber'];
+function applyTheme(t){
+  if (t === 'wps') document.body.removeAttribute('data-theme');
+  else document.body.setAttribute('data-theme', t);
+  try { localStorage.setItem('mz-theme', t); } catch(e){}
+}
+function cycleTheme(){
+  var cur = 'wps';
+  try { cur = localStorage.getItem('mz-theme') || 'wps'; } catch(e){}
+  applyTheme(THEMES[(THEMES.indexOf(cur) + 1) % THEMES.length]);
+}
+try { var saved = localStorage.getItem('mz-theme'); if (saved && saved !== 'wps') applyTheme(saved); } catch(e){}
+
 function copyFeed(){
   var url = document.getElementById('feedurl').textContent.trim();
   var btn = document.getElementById('copybtn');
@@ -200,6 +220,7 @@ function copyFeed(){
 
 document.addEventListener('keydown', function(e){
   if (e.key === 'Escape') window.scrollTo({top:0, behavior:'smooth'});
+  if (e.key === 'F2') { e.preventDefault(); cycleTheme(); }
 });
 
 fetch('/feed.xml').then(function(r){ return r.text(); }).then(function(xml){
@@ -207,6 +228,7 @@ fetch('/feed.xml').then(function(r){ return r.text(); }).then(function(xml){
   var items = Array.prototype.slice.call(doc.querySelectorAll('item'), 0, 8);
   if (!items.length) return;
   var box = document.getElementById('eplist'); box.innerHTML = '';
+  var now = new Date();
   items.forEach(function(it){
     function txt(tag){ var n = it.getElementsByTagName(tag)[0]; return n ? n.textContent : ''; }
     var enc = it.getElementsByTagName('enclosure')[0];
@@ -217,7 +239,6 @@ fetch('/feed.xml').then(function(r){ return r.text(); }).then(function(xml){
     var ds = document.createElement('span'); ds.className = 'date'; ds.textContent = dstr;
     var t = document.createElement('span'); t.className = 't'; t.textContent = txt('title');
     row.appendChild(ds); row.appendChild(t);
-    var now = new Date();
     if (dt && dt.getFullYear() === now.getFullYear() && dt.getMonth() === now.getMonth() && dt.getDate() === now.getDate()) {
       var nb = document.createElement('span'); nb.className = 'newbadge'; nb.textContent = 'NEW';
       t.appendChild(nb);

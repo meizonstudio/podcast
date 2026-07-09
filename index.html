@@ -37,6 +37,7 @@
   body::after{content:'';position:fixed;inset:0;pointer-events:none;z-index:99;
     background:repeating-linear-gradient(0deg,rgba(0,0,0,.07) 0 1px,transparent 1px 3px)}
 
+  .topbars{position:sticky;top:0;z-index:100}
   .bios{background:#000;color:#9a9a9a;font-family:var(--mono);font-size:12px;padding:4px 14px}
   .bios b{color:#d8d8d8;font-weight:400}
 
@@ -121,11 +122,13 @@
 </style>
 </head>
 <body>
+<div class="topbars">
 <div class="bios">Meizon Modular BIOS v2.0 · 内存检测 <b>640K OK</b> · 已加载中文字库 · 正在启动 <b>AI小喇叭.EXE</b> ▂</div>
 <nav>
   <a href="#eps">节目</a><a href="#sub">订阅</a><a href="#about">关于</a>
   <span class="site">MEIZON.ME</span>
 </nav>
+</div>
 
 <div class="wrap">
 

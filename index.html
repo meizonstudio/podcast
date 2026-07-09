@@ -117,7 +117,18 @@
   .fbar a:hover{background:var(--canvas);color:var(--ink)}
   .fbar a:hover b{color:var(--ink)}
   .fbar .esc{margin-left:auto}
-  @media (max-width:560px){ .blk{width:56px;height:56px;font-size:32px} .slogan{font-size:20px} .horn{top:-28px;right:-14px;width:56px} .win,.dlg{padding:22px 16px 18px} }
+  @media (max-width:560px){
+    .wrap{padding:0 12px 44px}
+    .blocks{gap:6px}
+    .blk{width:44px;height:44px;font-size:25px}
+    .b6 svg{width:32px;height:22px}
+    .slogan{font-size:19px}
+    .win,.dlg{padding:22px 14px 18px}
+  }
+  @media (max-width:380px){
+    .blk{width:38px;height:38px;font-size:22px}
+    .b6 svg{width:28px;height:19px}
+  }
 </style>
 </head>
 <body>

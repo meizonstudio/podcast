@@ -5,15 +5,15 @@
   xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>AI小喇叭</title>
-    <description>AI小喇叭，开始广播啦！AI生成的环球话题播客（实验性 · 免费 · 个人分享）：全球要闻、科技与AI、经济与生活、历史与文化。中文普通话播报，AI主播美舟主持。Meizon 出品。</description>
+    <description>AI小喇叭，开始广播啦！AI生成的环球话题播客（实验性 · 免费 · 个人分享）：环球见闻、科技与AI、经济与生活、历史与文化。资料来自互联网公开信息（以英文资料为主），中文普通话播报，AI主播美舟主持。Meizon 出品。</description>
     <language>zh-cn</language>
-    <lastBuildDate>Thu, 09 Jul 2026 19:23:56 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 09 Jul 2026 20:06:04 GMT</lastBuildDate>
     <link>https://meizon.me</link>
     <atom:link href="https://meizon.me/feed.xml" rel="self" type="application/rss+xml"/>
     <itunes:author>美舟 · Meizon</itunes:author>
-    <itunes:summary>AI小喇叭，开始广播啦！AI生成的环球话题播客（实验性 · 免费 · 个人分享）：全球要闻、科技与AI、经济与生活、历史与文化。中文普通话播报，AI主播美舟主持。Meizon 出品。</itunes:summary>
-    <itunes:category text="News">
-      <itunes:category text="News Commentary"/>
+    <itunes:summary>AI小喇叭，开始广播啦！AI生成的环球话题播客（实验性 · 免费 · 个人分享）：环球见闻、科技与AI、经济与生活、历史与文化。资料来自互联网公开信息（以英文资料为主），中文普通话播报，AI主播美舟主持。Meizon 出品。</itunes:summary>
+    <itunes:category text="Society &amp; Culture">
+      <itunes:category text="Personal Journals"/>
     </itunes:category>
     <itunes:explicit>no</itunes:explicit>
     <itunes:type>episodic</itunes:type>

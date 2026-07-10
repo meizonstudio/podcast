@@ -7,7 +7,7 @@
     <title>AI小喇叭</title>
     <description>AI小喇叭，开始广播啦！AI生成的环球话题播客（实验性 · 免费 · 个人分享）：环球见闻、科技与AI、经济与生活、历史与文化。资料来自互联网公开信息（以英文资料为主），中文普通话播报，AI主播美舟主持。Meizon 出品。</description>
     <language>zh-cn</language>
-    <lastBuildDate>Fri, 10 Jul 2026 04:37:40 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 10 Jul 2026 14:46:38 GMT</lastBuildDate>
     <link>https://meizon.me</link>
     <atom:link href="https://meizon.me/feed.xml" rel="self" type="application/rss+xml"/>
     <itunes:author>美舟 · Meizon</itunes:author>
@@ -23,6 +23,17 @@
       <title>AI小喇叭</title>
       <link>https://meizon.me</link>
     </image>
+    <item>
+      <title>2026-07-10 每日见闻</title>
+      <description>大家好，我是美舟。AI小喇叭，开始广播啦！ 先说一句，本节目由人工智能生成，是一档个人兴趣分享。内容整理自互联网上公开的资料，以英文一手信息为主，只供参考。今天是2026年7月10号，星期五。 如果OpenAI和Anthropic的员工把公司上市后拿到的钱都拿去买房，他们能买下旧金山多少房子？房地产公司Redfin给出的答案是：相当于旧金山都会区所有住宅总价值的百分之二十九。</description>
+      <enclosure url="https://meizon.me/episodes/2026-07-10.mp3" length="5375664" type="audio/mpeg"/>
+      <guid isPermaLink="true">https://meizon.me/episodes/2026-07-10.mp3</guid>
+      <pubDate>Fri, 10 Jul 2026 14:45:36 GMT</pubDate>
+      <itunes:duration>14:55</itunes:duration>
+      <itunes:author>美舟 · Meizon</itunes:author>
+      <itunes:summary>大家好，我是美舟。AI小喇叭，开始广播啦！ 先说一句，本节目由人工智能生成，是一档个人兴趣分享。内容整理自互联网上公开的资料，以英文一手信息为主，只供参考。今天是2026年7月10号，星期五。 如果OpenAI和Anthropic的员工把公司上市后拿到的钱都拿去买房，他们能买下旧金山多少房子？房地产公司Redfin给出的答案是：相当于旧金山都会区所有住宅总价值的百分之二十九。</itunes:summary>
+      <itunes:explicit>no</itunes:explicit>
+    </item>
     <item>
       <title>2026-07-09 每日见闻</title>
       <description>大家好，我是美舟。AI小喇叭，开始广播啦！ 先说一句，本节目由人工智能生成，是一档个人兴趣分享——内容都整理自互联网上公开的资料，以英文的一手信息为主，只代表个人视角，供大家参考。今天是2026年7月9号，星期四。 今天最热闹的，是人工智能这个圈子。就在这一两天，全球几家最顶尖的AI公司，几乎前后脚地，扎堆发布了各自最新、最强的模型，一个比一个宣称自己天下第一。这场面，本节目的制作人给它起了个特别贴切的名字，他说——这简直就是一届"前沿大模型的世界杯"。那今天，我们就从这场世界杯说起。</description>

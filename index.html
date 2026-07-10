@@ -67,8 +67,6 @@
   .slogan .cur{animation:blink 1s step-end infinite;font-family:var(--mono);font-weight:400}
   @keyframes blink{0%,49%{opacity:1}50%,100%{opacity:0}}
   .tagline{margin-top:10px;color:var(--muted);font-size:14.5px}
-  .tags{margin-top:4px;color:var(--link);font-size:13.5px}
-  .tags span{margin:0 6px;white-space:nowrap}
 
   /* unified gray dialog for all sections */
   .dlg{background:var(--dlg-bg);color:var(--dlg-ink);
@@ -142,6 +140,7 @@
     .b6 svg{width:32px;height:22px}
     .slogan{font-size:19px}
     .win,.dlg{padding:22px 14px 18px}
+    .ep .play{padding:6px 12px;font-size:14px}
   }
   @media (max-width:380px){
     .blk{width:38px;height:38px;font-size:22px}
@@ -176,8 +175,7 @@
       </svg></span>
     </div>
     <p class="slogan">「AI小喇叭，开始广播啦！」<span class="cur">▌</span></p>
-    <p class="tagline">AI 生成的环球话题播客 · 中文普通话 · AI 主播「美舟」主持</p>
-    <p class="tags"><span>[ 实验项目 ]</span><span>[ 完全免费 ]</span><span>[ 个人分享 ]</span></p>
+    <p class="tagline">AI 生成的环球话题播客 · 实验项目 · 完全免费 · 个人分享</p>
   </div>
 
   <div class="dlg" id="eps">
@@ -298,6 +296,26 @@ function buildRow(e, now){
       row.appendChild(a); b.textContent = '[►播放中]';
     };
     row.appendChild(b);
+  }
+  // share/download link — only for episodes hosted on the new repo (meizon.me)
+  if (e.url && e.url.indexOf('https://meizon.me/') === 0) {
+    var s = document.createElement('button'); s.className = 'play'; s.textContent = '[⇩链接]';
+    s.onclick = function(){
+      // native share sheet on real mobile devices; plain copy on desktop
+      var isMobile = /Android|iPhone|iPad|iPod|Mobile/i.test(navigator.userAgent);
+      if (navigator.share && isMobile) {
+        navigator.share({ title: e.title, text: e.title + ' — AI小喇叭', url: e.url }).catch(function(){});
+        return;
+      }
+      function ok(){ s.textContent = '[已复制]'; setTimeout(function(){ s.textContent = '[⇩链接]'; }, 2000); }
+      function fallback(){
+        var ta = document.createElement('textarea'); ta.value = e.url; document.body.appendChild(ta);
+        ta.select(); try { document.execCommand('copy'); ok(); } catch(err){} document.body.removeChild(ta);
+      }
+      if (navigator.clipboard && navigator.clipboard.writeText) navigator.clipboard.writeText(e.url).then(ok, fallback);
+      else fallback();
+    };
+    row.appendChild(s);
   }
   return row;
 }

@@ -7,7 +7,7 @@
     <title>AI小喇叭</title>
     <description>AI小喇叭，开始广播啦！AI生成的环球话题播客（实验性 · 免费 · 个人分享）：环球见闻、科技与AI、经济与生活、历史与文化。资料来自互联网公开信息（以英文资料为主），中文普通话播报，AI主播美舟主持。Meizon 出品。</description>
     <language>zh-cn</language>
-    <lastBuildDate>Sun, 12 Jul 2026 16:47:49 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 12 Jul 2026 17:22:03 GMT</lastBuildDate>
     <link>https://meizon.me</link>
     <atom:link href="https://meizon.me/feed.xml" rel="self" type="application/rss+xml"/>
     <itunes:author>美舟 · Meizon</itunes:author>
@@ -23,6 +23,17 @@
       <title>AI小喇叭</title>
       <link>https://meizon.me</link>
     </image>
+    <item>
+      <title>Vibe Coding 101, Part 1: If You Can Say It, You Can Build It</title>
+      <description>In February 2025, one of the most famous researchers in the AI world wrote a post. His name is Andrej Karpathy — though the name matters much less than what he said. He said there's a new way of writing software: you don't look at the code at all. You just say what you want, follow the vibes, and le</description>
+      <enclosure url="https://meizon.me/episodes/2026-07-12-vibe-coding-ep01-en.mp3" length="4017024" type="audio/mpeg"/>
+      <guid isPermaLink="true">https://meizon.me/episodes/2026-07-12-vibe-coding-ep01-en.mp3</guid>
+      <pubDate>Sun, 12 Jul 2026 17:30:00 GMT</pubDate>
+      <itunes:duration>11:09</itunes:duration>
+      <itunes:author>美舟 · Meizon</itunes:author>
+      <itunes:summary>In February 2025, one of the most famous researchers in the AI world wrote a post. His name is Andrej Karpathy — though the name matters much less than what he said. He said there's a new way of writing software: you don't look at the code at all. You just say what you want, follow the vibes, and le</itunes:summary>
+      <itunes:explicit>no</itunes:explicit>
+    </item>
     <item>
       <title>氛围编程入门（一）：会说话，就会编程</title>
       <description>2025年2月，一位在人工智能圈子里非常有名的研究员，Andrej Karpathy，发了一条帖子。他说，现在出现了一种新的写程序的方式：你完全不看代码，跟着感觉走，想要什么就直接说，让AI去写，甚至"忘记代码的存在"。他给这种方式起了个名字，叫 vibe coding，中文可以叫"氛围编程"。 当时很多人觉得这是个玩笑。一年多过去，玩笑变成了一件正在发生的事：越来越多完全不会写代码的普通人——会计师、老师、开小店的、做行政的——真的开始用"说话"的方式，让AI替自己干活了。 如果你平时也用AI，但只是在网页上跟它聊聊天、问问问题，那这个新系列就是为你准备的。</description>

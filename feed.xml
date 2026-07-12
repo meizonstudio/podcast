@@ -7,7 +7,7 @@
     <title>AI小喇叭</title>
     <description>AI小喇叭，开始广播啦！AI生成的环球话题播客（实验性 · 免费 · 个人分享）：环球见闻、科技与AI、经济与生活、历史与文化。资料来自互联网公开信息（以英文资料为主），中文普通话播报，AI主播美舟主持。Meizon 出品。</description>
     <language>zh-cn</language>
-    <lastBuildDate>Fri, 10 Jul 2026 23:45:29 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 12 Jul 2026 16:47:49 GMT</lastBuildDate>
     <link>https://meizon.me</link>
     <atom:link href="https://meizon.me/feed.xml" rel="self" type="application/rss+xml"/>
     <itunes:author>美舟 · Meizon</itunes:author>
@@ -23,6 +23,17 @@
       <title>AI小喇叭</title>
       <link>https://meizon.me</link>
     </image>
+    <item>
+      <title>氛围编程入门（一）：会说话，就会编程</title>
+      <description>2025年2月，一位在人工智能圈子里非常有名的研究员，Andrej Karpathy，发了一条帖子。他说，现在出现了一种新的写程序的方式：你完全不看代码，跟着感觉走，想要什么就直接说，让AI去写，甚至"忘记代码的存在"。他给这种方式起了个名字，叫 vibe coding，中文可以叫"氛围编程"。 当时很多人觉得这是个玩笑。一年多过去，玩笑变成了一件正在发生的事：越来越多完全不会写代码的普通人——会计师、老师、开小店的、做行政的——真的开始用"说话"的方式，让AI替自己干活了。 如果你平时也用AI，但只是在网页上跟它聊聊天、问问问题，那这个新系列就是为你准备的。</description>
+      <enclosure url="https://meizon.me/episodes/2026-07-12-vibe-coding-ep01.mp3" length="3917952" type="audio/mpeg"/>
+      <guid isPermaLink="true">https://meizon.me/episodes/2026-07-12-vibe-coding-ep01.mp3</guid>
+      <pubDate>Sun, 12 Jul 2026 16:40:00 GMT</pubDate>
+      <itunes:duration>10:52</itunes:duration>
+      <itunes:author>美舟 · Meizon</itunes:author>
+      <itunes:summary>2025年2月，一位在人工智能圈子里非常有名的研究员，Andrej Karpathy，发了一条帖子。他说，现在出现了一种新的写程序的方式：你完全不看代码，跟着感觉走，想要什么就直接说，让AI去写，甚至"忘记代码的存在"。他给这种方式起了个名字，叫 vibe coding，中文可以叫"氛围编程"。 当时很多人觉得这是个玩笑。一年多过去，玩笑变成了一件正在发生的事：越来越多完全不会写代码的普通人——会计师、老师、开小店的、做行政的——真的开始用"说话"的方式，让AI替自己干活了。 如果你平时也用AI，但只是在网页上跟它聊聊天、问问问题，那这个新系列就是为你准备的。</itunes:summary>
+      <itunes:explicit>no</itunes:explicit>
+    </item>
     <item>
       <title>幕后特辑 · How We Built This：一档AI播客的诞生</title>
       <description>大家好，我是美舟。AI小喇叭，开始广播啦！ 今天早上，这档节目照常更新了一期十七分钟的国际见闻。做这期节目的人，早晨喝着咖啡，在电脑上敲了几行字——大概就是几个他感兴趣的话题，加上一两句想法。然后他去忙别的了。一个多小时后，一期节目出现在网站上：选题查证过了，稿子润色过了，配音生成了，开头有一段小喇叭，结尾有一段音乐，全世界都能点开收听。 不少朋友好奇：这到底是怎么做出来的？要花多少钱？要会写代码吗？还有几位朋友，自己也想做一档播客，但不知道从哪儿开始。</description>
@@ -54,17 +65,6 @@
       <itunes:duration>18:26</itunes:duration>
       <itunes:author>美舟 · Meizon</itunes:author>
       <itunes:summary>大家好，我是美舟。AI小喇叭，开始广播啦！ 先说一句，本节目由人工智能生成，是一档个人兴趣分享——内容都整理自互联网上公开的资料，以英文的一手信息为主，只代表个人视角，供大家参考。今天是2026年7月9号，星期四。 今天最热闹的，是人工智能这个圈子。就在这一两天，全球几家最顶尖的AI公司，几乎前后脚地，扎堆发布了各自最新、最强的模型，一个比一个宣称自己天下第一。这场面，本节目的制作人给它起了个特别贴切的名字，他说——这简直就是一届"前沿大模型的世界杯"。那今天，我们就从这场世界杯说起。</itunes:summary>
-      <itunes:explicit>no</itunes:explicit>
-    </item>
-    <item>
-      <title>2026-07-08 每日见闻</title>
-      <description>大家好，我是美舟，欢迎收听AI小喇叭。本播客由人工智能技术生成，今天这期内容主要整理自互联网上的公开信息。今天是2026年7月8号，星期三。 先说今天最重的一条：美国，又一次对伊朗动了手。而今年6月刚刚谈成、一度被寄予厚望的那纸停火协议，眼下基本已经名存实亡。 先把背景交代清楚。今年6月17号，在美国总统特朗普的推动下，美国和伊朗签了一份为期60天的停火备忘录。这份协议的内容不少：伊朗同意让全世界的船只，重新自由通过霍尔木兹海峡；作为交换，美国解除对伊朗的海上封锁，还松开了对伊朗石油出口的制裁。双方本打算利用这60天，好好谈一谈伊朗的核问题。当时特朗普把这份协议说得很高，甚至形容成伊朗的"无条</description>
-      <enclosure url="https://meizon.me/episodes/2026-07-08.mp3" length="6509808" type="audio/mpeg"/>
-      <guid isPermaLink="true">https://meizon.me/episodes/2026-07-08.mp3</guid>
-      <pubDate>Thu, 09 Jul 2026 03:06:05 GMT</pubDate>
-      <itunes:duration>18:04</itunes:duration>
-      <itunes:author>美舟 · Meizon</itunes:author>
-      <itunes:summary>大家好，我是美舟，欢迎收听AI小喇叭。本播客由人工智能技术生成，今天这期内容主要整理自互联网上的公开信息。今天是2026年7月8号，星期三。 先说今天最重的一条：美国，又一次对伊朗动了手。而今年6月刚刚谈成、一度被寄予厚望的那纸停火协议，眼下基本已经名存实亡。 先把背景交代清楚。今年6月17号，在美国总统特朗普的推动下，美国和伊朗签了一份为期60天的停火备忘录。这份协议的内容不少：伊朗同意让全世界的船只，重新自由通过霍尔木兹海峡；作为交换，美国解除对伊朗的海上封锁，还松开了对伊朗石油出口的制裁。双方本打算利用这60天，好好谈一谈伊朗的核问题。当时特朗普把这份协议说得很高，甚至形容成伊朗的"无条</itunes:summary>
       <itunes:explicit>no</itunes:explicit>
     </item>
     <item>

@@ -7,7 +7,7 @@
     <title>AI小喇叭</title>
     <description>AI小喇叭，开始广播啦！AI生成的环球话题播客（实验性 · 免费 · 个人分享）：环球见闻、科技与AI、经济与生活、历史与文化。资料来自互联网公开信息（以英文资料为主），中文普通话播报，AI主播美舟主持。Meizon 出品。</description>
     <language>zh-cn</language>
-    <lastBuildDate>Mon, 13 Jul 2026 02:53:03 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 13 Jul 2026 03:17:43 GMT</lastBuildDate>
     <link>https://meizon.me</link>
     <atom:link href="https://meizon.me/feed.xml" rel="self" type="application/rss+xml"/>
     <itunes:author>美舟 · Meizon</itunes:author>
@@ -23,6 +23,17 @@
       <title>AI小喇叭</title>
       <link>https://meizon.me</link>
     </image>
+    <item>
+      <title>Vibe Coding 101, Part 2: 400 Photos and a 300-Page PDF</title>
+      <description>Is your phone sitting on a few hundred unsorted photos right now? Trips, dinners, random screenshots, all piled together. If you hired a person to organize them, it would take the better part of a day. And while making this episode, we ran a second, real experiment — this one with a PDF. Three hundr</description>
+      <enclosure url="https://meizon.me/episodes/2026-07-12-vibe-coding-ep02-en.mp3" length="4742928" type="audio/mpeg"/>
+      <guid isPermaLink="true">https://meizon.me/episodes/2026-07-12-vibe-coding-ep02-en.mp3</guid>
+      <pubDate>Mon, 13 Jul 2026 03:45:00 GMT</pubDate>
+      <itunes:duration>13:10</itunes:duration>
+      <itunes:author>美舟 · Meizon</itunes:author>
+      <itunes:summary>Is your phone sitting on a few hundred unsorted photos right now? Trips, dinners, random screenshots, all piled together. If you hired a person to organize them, it would take the better part of a day. And while making this episode, we ran a second, real experiment — this one with a PDF. Three hundr</itunes:summary>
+      <itunes:explicit>no</itunes:explicit>
+    </item>
     <item>
       <title>氛围编程入门（二）：四百张照片与三百页PDF</title>
       <description>你的手机里，是不是也躺着几百张没整理的照片？旅行的、聚餐的、随手截的图，全堆在一起。要是雇个人来整理，怎么也得干上一天。 制作这期节目的时候，我们还做了一个真实的实验：拿一份三百页的PDF文件，每一页上都有一张表格，让AI把它汇总成一张Excel表。你猜猜，真正处理那三百页，花了多久？ 两秒钟。今天这一集，就带你从头到尾"看"一遍，这位AI员工到底是怎么干活的。</description>

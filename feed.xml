@@ -7,7 +7,7 @@
     <title>AI小喇叭</title>
     <description>AI小喇叭，开始广播啦！AI生成的环球话题播客（实验性 · 免费 · 个人分享）：环球见闻、科技与AI、经济与生活、历史与文化。资料来自互联网公开信息（以英文资料为主），中文普通话播报，AI主播美舟主持。Meizon 出品。</description>
     <language>zh-cn</language>
-    <lastBuildDate>Mon, 13 Jul 2026 03:17:43 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 14 Jul 2026 00:24:35 GMT</lastBuildDate>
     <link>https://meizon.me</link>
     <atom:link href="https://meizon.me/feed.xml" rel="self" type="application/rss+xml"/>
     <itunes:author>美舟 · Meizon</itunes:author>
@@ -23,6 +23,17 @@
       <title>AI小喇叭</title>
       <link>https://meizon.me</link>
     </image>
+    <item>
+      <title>2026-07-13 见闻：Lindsey Graham去世、美伊停火破裂、曼谷大火</title>
+      <description>大家好，我是美舟。AI小喇叭，开始广播啦！ 先说一句，本节目由人工智能生成，是一档个人兴趣分享。内容整理自互联网上公开的资料，以英文一手信息为主，只供参考。今天是2026年7月13号，星期一。 昨天清晨，美国政坛传来一个突然的消息：南卡罗来纳州联邦参议员Lindsey Graham去世，享年71岁。他的办公室说，他在周六夜里"因一场突发的短暂疾病"离世；初步的医学报告显示，死因是主动脉夹层——也就是心脏附近最粗的那根大动脉，因为血管硬化发生了撕裂。这来得毫无征兆：就在上周五，他还在乌克兰会见了总统泽连斯基，周六刚刚飞回美国，几个小时后就走了。</description>
+      <enclosure url="https://meizon.me/episodes/2026-07-13.mp3" length="29649645" type="audio/mpeg"/>
+      <guid isPermaLink="true">https://meizon.me/episodes/2026-07-13.mp3</guid>
+      <pubDate>Tue, 14 Jul 2026 00:24:17 GMT</pubDate>
+      <itunes:duration>12:21</itunes:duration>
+      <itunes:author>美舟 · Meizon</itunes:author>
+      <itunes:summary>大家好，我是美舟。AI小喇叭，开始广播啦！ 先说一句，本节目由人工智能生成，是一档个人兴趣分享。内容整理自互联网上公开的资料，以英文一手信息为主，只供参考。今天是2026年7月13号，星期一。 昨天清晨，美国政坛传来一个突然的消息：南卡罗来纳州联邦参议员Lindsey Graham去世，享年71岁。他的办公室说，他在周六夜里"因一场突发的短暂疾病"离世；初步的医学报告显示，死因是主动脉夹层——也就是心脏附近最粗的那根大动脉，因为血管硬化发生了撕裂。这来得毫无征兆：就在上周五，他还在乌克兰会见了总统泽连斯基，周六刚刚飞回美国，几个小时后就走了。</itunes:summary>
+      <itunes:explicit>no</itunes:explicit>
+    </item>
     <item>
       <title>Vibe Coding 101, Part 2: 400 Photos and a 300-Page PDF</title>
       <description>Is your phone sitting on a few hundred unsorted photos right now? Trips, dinners, random screenshots, all piled together. If you hired a person to organize them, it would take the better part of a day. And while making this episode, we ran a second, real experiment — this one with a PDF. Three hundr</description>
@@ -76,17 +87,6 @@
       <itunes:duration>21:33</itunes:duration>
       <itunes:author>美舟 · Meizon</itunes:author>
       <itunes:summary>大家好，我是美舟。AI小喇叭，开始广播啦！ 今天早上，这档节目照常更新了一期十七分钟的国际见闻。做这期节目的人，早晨喝着咖啡，在电脑上敲了几行字——大概就是几个他感兴趣的话题，加上一两句想法。然后他去忙别的了。一个多小时后，一期节目出现在网站上：选题查证过了，稿子润色过了，配音生成了，开头有一段小喇叭，结尾有一段音乐，全世界都能点开收听。 不少朋友好奇：这到底是怎么做出来的？要花多少钱？要会写代码吗？还有几位朋友，自己也想做一档播客，但不知道从哪儿开始。</itunes:summary>
-      <itunes:explicit>no</itunes:explicit>
-    </item>
-    <item>
-      <title>2026-07-10 见闻：客机窗户空中破裂、三款AI新模型、台风巴威</title>
-      <description>大家好，我是美舟。AI小喇叭，开始广播啦！ 先说一句，本节目由人工智能生成，是一档个人兴趣分享。内容整理自互联网上公开的资料，以英文一手信息为主，只供参考。今天是2026年7月10号，星期五。 先从今天一早的一场惊险说起。一架从希腊塞萨洛尼基起飞的客机，爬到大约四千五百米高的时候，右边的引擎突然出事，飞溅出来的碎片打碎了客舱的一扇窗户。舱里的气压瞬间往外泄，一位坐在窗边的乘客，上半身被吸出了破口，头和肩膀都探到了机舱外面——真正把他留在飞机上的，是那条系着的安全带，还有死死抓住他的妻子和邻座。</description>
-      <enclosure url="https://meizon.me/episodes/2026-07-10.mp3" length="12123117" type="audio/mpeg"/>
-      <guid isPermaLink="true">https://meizon.me/episodes/2026-07-10.mp3</guid>
-      <pubDate>Fri, 10 Jul 2026 19:53:55 GMT</pubDate>
-      <itunes:duration>16:50</itunes:duration>
-      <itunes:author>美舟 · Meizon</itunes:author>
-      <itunes:summary>大家好，我是美舟。AI小喇叭，开始广播啦！ 先说一句，本节目由人工智能生成，是一档个人兴趣分享。内容整理自互联网上公开的资料，以英文一手信息为主，只供参考。今天是2026年7月10号，星期五。 先从今天一早的一场惊险说起。一架从希腊塞萨洛尼基起飞的客机，爬到大约四千五百米高的时候，右边的引擎突然出事，飞溅出来的碎片打碎了客舱的一扇窗户。舱里的气压瞬间往外泄，一位坐在窗边的乘客，上半身被吸出了破口，头和肩膀都探到了机舱外面——真正把他留在飞机上的，是那条系着的安全带，还有死死抓住他的妻子和邻座。</itunes:summary>
       <itunes:explicit>no</itunes:explicit>
     </item>
     <item>

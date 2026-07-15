@@ -7,7 +7,7 @@
     <title>AI小喇叭</title>
     <description>AI小喇叭，开始广播啦！AI生成的环球话题播客（实验性 · 免费 · 个人分享）：环球见闻、科技与AI、经济与生活、历史与文化。资料来自互联网公开信息（以英文资料为主），中文普通话播报，AI主播美舟主持。Meizon 出品。</description>
     <language>zh-cn</language>
-    <lastBuildDate>Tue, 14 Jul 2026 00:24:35 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 15 Jul 2026 00:24:34 GMT</lastBuildDate>
     <link>https://meizon.me</link>
     <atom:link href="https://meizon.me/feed.xml" rel="self" type="application/rss+xml"/>
     <itunes:author>美舟 · Meizon</itunes:author>
@@ -23,6 +23,17 @@
       <title>AI小喇叭</title>
       <link>https://meizon.me</link>
     </image>
+    <item>
+      <title>2026-07-14 见闻：ICE枪击引全国抗议、夏令时或成永久、Claude价值观体检</title>
+      <description>大家好，我是美舟。AI小喇叭，开始广播啦！ 先说一句，本节目由人工智能生成，是一档个人兴趣分享。内容整理自互联网上公开的资料，以英文一手信息为主，只供参考。今天是2026年7月14号，星期二。今天不赶场子，只讲三件事，每一件都把来龙去脉讲透。先从最沉重的一件说起。 过去一个星期，美国移民及海关执法局，也就是大家常听到的ICE，在两次拦车行动中开枪，打死了两名普通人。抗议已经蔓延到全国多个城市，而就在今天，ICE被迫紧急叫停了拦车行动。7月7号在德州休斯顿，52岁的墨西哥人Lorenzo Salgado Araujo，当时正开车送他建筑班组的工友去工地，几辆没有任何标识的车突然追上来——车里是联</description>
+      <enclosure url="https://meizon.me/episodes/2026-07-14.mp3" length="27281325" type="audio/mpeg"/>
+      <guid isPermaLink="true">https://meizon.me/episodes/2026-07-14.mp3</guid>
+      <pubDate>Wed, 15 Jul 2026 00:24:20 GMT</pubDate>
+      <itunes:duration>11:22</itunes:duration>
+      <itunes:author>美舟 · Meizon</itunes:author>
+      <itunes:summary>大家好，我是美舟。AI小喇叭，开始广播啦！ 先说一句，本节目由人工智能生成，是一档个人兴趣分享。内容整理自互联网上公开的资料，以英文一手信息为主，只供参考。今天是2026年7月14号，星期二。今天不赶场子，只讲三件事，每一件都把来龙去脉讲透。先从最沉重的一件说起。 过去一个星期，美国移民及海关执法局，也就是大家常听到的ICE，在两次拦车行动中开枪，打死了两名普通人。抗议已经蔓延到全国多个城市，而就在今天，ICE被迫紧急叫停了拦车行动。7月7号在德州休斯顿，52岁的墨西哥人Lorenzo Salgado Araujo，当时正开车送他建筑班组的工友去工地，几辆没有任何标识的车突然追上来——车里是联</itunes:summary>
+      <itunes:explicit>no</itunes:explicit>
+    </item>
     <item>
       <title>2026-07-13 见闻：Lindsey Graham去世、美伊停火破裂、曼谷大火</title>
       <description>大家好，我是美舟。AI小喇叭，开始广播啦！ 先说一句，本节目由人工智能生成，是一档个人兴趣分享。内容整理自互联网上公开的资料，以英文一手信息为主，只供参考。今天是2026年7月13号，星期一。 昨天清晨，美国政坛传来一个突然的消息：南卡罗来纳州联邦参议员Lindsey Graham去世，享年71岁。他的办公室说，他在周六夜里"因一场突发的短暂疾病"离世；初步的医学报告显示，死因是主动脉夹层——也就是心脏附近最粗的那根大动脉，因为血管硬化发生了撕裂。这来得毫无征兆：就在上周五，他还在乌克兰会见了总统泽连斯基，周六刚刚飞回美国，几个小时后就走了。</description>

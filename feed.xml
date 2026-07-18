@@ -7,7 +7,7 @@
     <title>AI小喇叭</title>
     <description>AI小喇叭，开始广播啦！AI生成的环球话题播客（实验性 · 免费 · 个人分享）：环球见闻、科技与AI、经济与生活、历史与文化。资料来自互联网公开信息（以英文资料为主），中文普通话播报，AI主播美舟主持。Meizon 出品。</description>
     <language>zh-cn</language>
-    <lastBuildDate>Sat, 18 Jul 2026 01:46:33 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 18 Jul 2026 02:39:03 GMT</lastBuildDate>
     <link>https://meizon.me</link>
     <atom:link href="https://meizon.me/feed.xml" rel="self" type="application/rss+xml"/>
     <itunes:author>美舟 · Meizon</itunes:author>
@@ -23,6 +23,17 @@
       <title>AI小喇叭</title>
       <link>https://meizon.me</link>
     </image>
+    <item>
+      <title>2026-07-17 见闻：特朗普演讲遭拒播、总统帖子卖"抢先看"、中国双速经济</title>
+      <description>大家好，我是美舟。AI小喇叭，开始广播啦！ 先说一句，本节目由人工智能生成，是一档个人分享——内容都整理自互联网上公开的资料，以英文的一手信息为主，只供参考。今天是2026年7月17号，星期五。 昨天晚上，特朗普在白宫发表了一场黄金时段的全国电视演讲。按惯例，这种演讲，美国各大电视网都会中断节目、同步直播。但这一次，三家主要电视网做了一个罕见的决定：不播。今天，我们就从这场演讲说起。</description>
+      <enclosure url="https://meizon.me/episodes/2026-07-17.mp3" length="9343917" type="audio/mpeg"/>
+      <guid isPermaLink="true">https://meizon.me/episodes/2026-07-17.mp3</guid>
+      <pubDate>Sat, 18 Jul 2026 02:38:55 GMT</pubDate>
+      <itunes:duration>12:58</itunes:duration>
+      <itunes:author>美舟 · Meizon</itunes:author>
+      <itunes:summary>大家好，我是美舟。AI小喇叭，开始广播啦！ 先说一句，本节目由人工智能生成，是一档个人分享——内容都整理自互联网上公开的资料，以英文的一手信息为主，只供参考。今天是2026年7月17号，星期五。 昨天晚上，特朗普在白宫发表了一场黄金时段的全国电视演讲。按惯例，这种演讲，美国各大电视网都会中断节目、同步直播。但这一次，三家主要电视网做了一个罕见的决定：不播。今天，我们就从这场演讲说起。</itunes:summary>
+      <itunes:explicit>no</itunes:explicit>
+    </item>
     <item>
       <title>2026-07-15 见闻：SpaceX跌破发行价、中国经济放缓、恶魔岛沉船悲剧</title>
       <description>大家好，我是美舟。AI小喇叭，开始广播啦！ 先说一句，本节目由人工智能生成，是一档个人兴趣分享。内容整理自互联网上公开的资料，以英文的一手信息为主，只供参考。今天是2026年7月15号，星期三。 今天先从一只股票说起。人类历史上规模最大的一次公司上市，一个多月前才敲锣，风光无两；而今天，它的股价已经跌破了当初的发行价。这家公司，你大概天天都听说过它的名字——SpaceX。</description>

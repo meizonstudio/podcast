@@ -7,7 +7,7 @@
     <title>AI小喇叭</title>
     <description>AI小喇叭，开始广播啦！AI生成的环球话题播客（实验性 · 免费 · 个人分享）：环球见闻、科技与AI、经济与生活、历史与文化。资料来自互联网公开信息（以英文资料为主），中文普通话播报，AI主播美舟主持。Meizon 出品。</description>
     <language>zh-cn</language>
-    <lastBuildDate>Sat, 18 Jul 2026 02:39:03 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 19 Jul 2026 19:12:30 GMT</lastBuildDate>
     <link>https://meizon.me</link>
     <atom:link href="https://meizon.me/feed.xml" rel="self" type="application/rss+xml"/>
     <itunes:author>美舟 · Meizon</itunes:author>
@@ -24,6 +24,28 @@
       <link>https://meizon.me</link>
     </image>
     <item>
+      <title>Vibe Coding 101, Part 3: 400 Tax Returns, Two Briefings</title>
+      <description>Picture this chore. Four hundred tax return files sitting in a folder, each one a hundred-plus pages. All you need out of them is one thing: each client's current mailing address, copied into a spreadsheet. The address is printed on a single page inside each file — but that page sits in a different </description>
+      <enclosure url="https://meizon.me/episodes/2026-07-19-vibe-coding-ep03-en.mp3" length="4468464" type="audio/mpeg"/>
+      <guid isPermaLink="true">https://meizon.me/episodes/2026-07-19-vibe-coding-ep03-en.mp3</guid>
+      <pubDate>Sun, 19 Jul 2026 19:35:00 GMT</pubDate>
+      <itunes:duration>12:24</itunes:duration>
+      <itunes:author>美舟 · Meizon</itunes:author>
+      <itunes:summary>Picture this chore. Four hundred tax return files sitting in a folder, each one a hundred-plus pages. All you need out of them is one thing: each client's current mailing address, copied into a spreadsheet. The address is printed on a single page inside each file — but that page sits in a different </itunes:summary>
+      <itunes:explicit>no</itunes:explicit>
+    </item>
+    <item>
+      <title>氛围编程入门（三）：把话说清楚</title>
+      <description>大家好，我是美舟。AI小喇叭，开始广播啦！本节目由人工智能生成，是一档个人分享——内容整理自制作人的亲身实践和互联网上公开的资料，只供参考。今天这一期，是《氛围编程入门》系列的第三期。 想象一下这样一件差事：你面前有400份报税档案，每份100多页。你要做的，只是把每家客户现在住的地址找出来，抄进一张表格。地址就印在其中一页纸上——可这页纸在每份文件里的位置都不一样。一份一份翻？按一份三分钟算，这是整整20个小时的枯燥劳动，还保不齐抄错几个门牌号。 这不是我编的题目。本节目的制作人，一位湾区的会计师，前些天真的碰上了这件事：事务所要更新客户的通讯地址，而最可靠的地址来源，就是每年报税留下的档案</description>
+      <enclosure url="https://meizon.me/episodes/2026-07-19-vibe-coding-ep03.mp3" length="4212576" type="audio/mpeg"/>
+      <guid isPermaLink="true">https://meizon.me/episodes/2026-07-19-vibe-coding-ep03.mp3</guid>
+      <pubDate>Sun, 19 Jul 2026 19:30:00 GMT</pubDate>
+      <itunes:duration>11:42</itunes:duration>
+      <itunes:author>美舟 · Meizon</itunes:author>
+      <itunes:summary>大家好，我是美舟。AI小喇叭，开始广播啦！本节目由人工智能生成，是一档个人分享——内容整理自制作人的亲身实践和互联网上公开的资料，只供参考。今天这一期，是《氛围编程入门》系列的第三期。 想象一下这样一件差事：你面前有400份报税档案，每份100多页。你要做的，只是把每家客户现在住的地址找出来，抄进一张表格。地址就印在其中一页纸上——可这页纸在每份文件里的位置都不一样。一份一份翻？按一份三分钟算，这是整整20个小时的枯燥劳动，还保不齐抄错几个门牌号。 这不是我编的题目。本节目的制作人，一位湾区的会计师，前些天真的碰上了这件事：事务所要更新客户的通讯地址，而最可靠的地址来源，就是每年报税留下的档案</itunes:summary>
+      <itunes:explicit>no</itunes:explicit>
+    </item>
+    <item>
       <title>2026-07-17 见闻：特朗普演讲遭拒播、总统帖子卖"抢先看"、中国双速经济</title>
       <description>大家好，我是美舟。AI小喇叭，开始广播啦！ 先说一句，本节目由人工智能生成，是一档个人分享——内容都整理自互联网上公开的资料，以英文的一手信息为主，只供参考。今天是2026年7月17号，星期五。 昨天晚上，特朗普在白宫发表了一场黄金时段的全国电视演讲。按惯例，这种演讲，美国各大电视网都会中断节目、同步直播。但这一次，三家主要电视网做了一个罕见的决定：不播。今天，我们就从这场演讲说起。</description>
       <enclosure url="https://meizon.me/episodes/2026-07-17.mp3" length="9343917" type="audio/mpeg"/>
@@ -32,17 +54,6 @@
       <itunes:duration>12:58</itunes:duration>
       <itunes:author>美舟 · Meizon</itunes:author>
       <itunes:summary>大家好，我是美舟。AI小喇叭，开始广播啦！ 先说一句，本节目由人工智能生成，是一档个人分享——内容都整理自互联网上公开的资料，以英文的一手信息为主，只供参考。今天是2026年7月17号，星期五。 昨天晚上，特朗普在白宫发表了一场黄金时段的全国电视演讲。按惯例，这种演讲，美国各大电视网都会中断节目、同步直播。但这一次，三家主要电视网做了一个罕见的决定：不播。今天，我们就从这场演讲说起。</itunes:summary>
-      <itunes:explicit>no</itunes:explicit>
-    </item>
-    <item>
-      <title>2026-07-15 见闻：SpaceX跌破发行价、中国经济放缓、恶魔岛沉船悲剧</title>
-      <description>大家好，我是美舟。AI小喇叭，开始广播啦！ 先说一句，本节目由人工智能生成，是一档个人兴趣分享。内容整理自互联网上公开的资料，以英文的一手信息为主，只供参考。今天是2026年7月15号，星期三。 今天先从一只股票说起。人类历史上规模最大的一次公司上市，一个多月前才敲锣，风光无两；而今天，它的股价已经跌破了当初的发行价。这家公司，你大概天天都听说过它的名字——SpaceX。</description>
-      <enclosure url="https://meizon.me/episodes/2026-07-15.mp3" length="12230253" type="audio/mpeg"/>
-      <guid isPermaLink="true">https://meizon.me/episodes/2026-07-15.mp3</guid>
-      <pubDate>Wed, 15 Jul 2026 23:56:37 GMT</pubDate>
-      <itunes:duration>16:59</itunes:duration>
-      <itunes:author>美舟 · Meizon</itunes:author>
-      <itunes:summary>大家好，我是美舟。AI小喇叭，开始广播啦！ 先说一句，本节目由人工智能生成，是一档个人兴趣分享。内容整理自互联网上公开的资料，以英文的一手信息为主，只供参考。今天是2026年7月15号，星期三。 今天先从一只股票说起。人类历史上规模最大的一次公司上市，一个多月前才敲锣，风光无两；而今天，它的股价已经跌破了当初的发行价。这家公司，你大概天天都听说过它的名字——SpaceX。</itunes:summary>
       <itunes:explicit>no</itunes:explicit>
     </item>
     <item>

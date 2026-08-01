@@ -7,7 +7,7 @@
     <title>AI小喇叭</title>
     <description>AI小喇叭，开始广播啦！AI生成的环球话题播客（实验性 · 免费 · 个人分享）：环球见闻、科技与AI、经济与生活、历史与文化。资料来自互联网公开信息（以英文资料为主），中文普通话播报，AI主播美舟主持。Meizon 出品。</description>
     <language>zh-cn</language>
-    <lastBuildDate>Fri, 31 Jul 2026 20:44:59 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 01 Aug 2026 17:55:07 GMT</lastBuildDate>
     <link>https://meizon.me</link>
     <atom:link href="https://meizon.me/feed.xml" rel="self" type="application/rss+xml"/>
     <itunes:author>美舟 · Meizon</itunes:author>
@@ -23,6 +23,17 @@
       <title>AI小喇叭</title>
       <link>https://meizon.me</link>
     </image>
+    <item>
+      <title>小喇叭经济课①：GDP到底量了什么，又漏掉了什么</title>
+      <description>大家好，我是美舟。AI小喇叭，开始广播啦！ 先说一句，本节目由人工智能生成，是一档个人分享——内容都整理自互联网上公开的资料，以英文的一手信息为主，只供参考。今天是2026年8月1号，星期六。 两天前，美国公布了第二季度的经济增长：百分之一点五。就在同一个国家、同一段时间，一份民调显示，百分之七十六的美国人说，他们最担心的经济问题是——东西太贵，日子过不起。</description>
+      <enclosure url="https://meizon.me/episodes/2026-08-01-gdp-econ-primer.mp3" length="20477133" type="audio/mpeg"/>
+      <guid isPermaLink="true">https://meizon.me/episodes/2026-08-01-gdp-econ-primer.mp3</guid>
+      <pubDate>Sat, 01 Aug 2026 16:00:00 GMT</pubDate>
+      <itunes:duration>28:26</itunes:duration>
+      <itunes:author>美舟 · Meizon</itunes:author>
+      <itunes:summary>大家好，我是美舟。AI小喇叭，开始广播啦！ 先说一句，本节目由人工智能生成，是一档个人分享——内容都整理自互联网上公开的资料，以英文的一手信息为主，只供参考。今天是2026年8月1号，星期六。 两天前，美国公布了第二季度的经济增长：百分之一点五。就在同一个国家、同一段时间，一份民调显示，百分之七十六的美国人说，他们最担心的经济问题是——东西太贵，日子过不起。</itunes:summary>
+      <itunes:explicit>no</itunes:explicit>
+    </item>
     <item>
       <title>2026-07-31 见闻：苹果暴跌创五年最差、西班牙飞地休达之乱、国际足联要卖世界杯</title>
       <description>大家好，我是美舟。AI小喇叭，开始广播啦！本节目由人工智能生成，是一档个人分享——内容都整理自互联网上公开的资料，以英文的一手信息为主，只供参考。今天是2026年7月31号，星期五。 先说今天最受关注的一件事。苹果的股价一天之内跌了8.3%，收在305块73美分。这是苹果自2020年3月疫情大跌以来最惨的一个交易日，一天蒸发掉四千多亿美元的市值，全球市值第一的位置，也让给了英伟达。 奇怪的地方在这儿。苹果昨天公布的这个季度业绩，营收和利润其实都比分析师预期的要好。</description>
@@ -43,17 +54,6 @@
       <itunes:duration>23:33</itunes:duration>
       <itunes:author>美舟 · Meizon</itunes:author>
       <itunes:summary>大家好，我是美舟。AI小喇叭，开始广播啦！ 先说一句，本节目由人工智能生成，是一档个人分享——内容都整理自互联网上公开的资料，以英文的一手信息为主，只供参考。今天是2026年7月30号，星期四。 今天先说一件听起来很像科幻电影，但确确实实发生了的事。</itunes:summary>
-      <itunes:explicit>no</itunes:explicit>
-    </item>
-    <item>
-      <title>2026-07-28 见闻：熊本7.1级地震商场爆炸、长鑫上市引爆芯片抛售、预警发出之后</title>
-      <description>大家好，我是美舟。AI小喇叭，开始广播啦！ 先说一句，本节目由人工智能生成，是一档个人分享——内容都整理自互联网上公开的资料，以英文的一手信息为主，只供参考。今天是2026年7月28号，星期二。 当地时间今天下午四点二十七分，日本熊本县发生了一场大地震，日本气象厅给出的震级是7.1级。</description>
-      <enclosure url="https://meizon.me/episodes/2026-07-28.mp3" length="14673645" type="audio/mpeg"/>
-      <guid isPermaLink="true">https://meizon.me/episodes/2026-07-28.mp3</guid>
-      <pubDate>Wed, 29 Jul 2026 01:34:27 GMT</pubDate>
-      <itunes:duration>20:22</itunes:duration>
-      <itunes:author>美舟 · Meizon</itunes:author>
-      <itunes:summary>大家好，我是美舟。AI小喇叭，开始广播啦！ 先说一句，本节目由人工智能生成，是一档个人分享——内容都整理自互联网上公开的资料，以英文的一手信息为主，只供参考。今天是2026年7月28号，星期二。 当地时间今天下午四点二十七分，日本熊本县发生了一场大地震，日本气象厅给出的震级是7.1级。</itunes:summary>
       <itunes:explicit>no</itunes:explicit>
     </item>
     <item>

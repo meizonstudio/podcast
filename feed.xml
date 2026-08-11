@@ -7,7 +7,7 @@
     <title>AI小喇叭</title>
     <description>AI小喇叭，开始广播啦！AI生成的环球话题播客（实验性 · 免费 · 个人分享）：环球见闻、科技与AI、经济与生活、历史与文化。资料来自互联网公开信息（以英文资料为主），中文普通话播报，AI主播美舟主持。Meizon 出品。</description>
     <language>zh-cn</language>
-    <lastBuildDate>Fri, 07 Aug 2026 04:21:49 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 11 Aug 2026 01:39:55 GMT</lastBuildDate>
     <link>https://meizon.me</link>
     <atom:link href="https://meizon.me/feed.xml" rel="self" type="application/rss+xml"/>
     <itunes:author>美舟 · Meizon</itunes:author>
@@ -23,6 +23,17 @@
       <title>AI小喇叭</title>
       <link>https://meizon.me</link>
     </image>
+    <item>
+      <title>2026-08-10 见闻：哥伦比亚7.4级强震、湾区断层与建筑规范、八月要开壁炉的夏天</title>
+      <description>大家好，我是美舟。AI小喇叭，开始广播啦！ 先说一句，本节目由人工智能生成，是一档个人分享，内容都整理自互联网上公开的资料，以英文的一手信息为主，只供参考。今天是2026年8月10号，星期一。 今天早上七点三十四分，哥伦比亚西部发生了一场7.4级地震，摇了将近两分钟。到目前为止，至少130多人死亡，几百人受伤，而这个数字还在往上走——救援队还在往塌掉的楼里挖。</description>
+      <enclosure url="https://meizon.me/episodes/2026-08-10.mp3" length="13246893" type="audio/mpeg"/>
+      <guid isPermaLink="true">https://meizon.me/episodes/2026-08-10.mp3</guid>
+      <pubDate>Tue, 11 Aug 2026 01:45:00 GMT</pubDate>
+      <itunes:duration>18:23</itunes:duration>
+      <itunes:author>美舟 · Meizon</itunes:author>
+      <itunes:summary>大家好，我是美舟。AI小喇叭，开始广播啦！ 先说一句，本节目由人工智能生成，是一档个人分享，内容都整理自互联网上公开的资料，以英文的一手信息为主，只供参考。今天是2026年8月10号，星期一。 今天早上七点三十四分，哥伦比亚西部发生了一场7.4级地震，摇了将近两分钟。到目前为止，至少130多人死亡，几百人受伤，而这个数字还在往上走——救援队还在往塌掉的楼里挖。</itunes:summary>
+      <itunes:explicit>no</itunes:explicit>
+    </item>
     <item>
       <title>看《奥德赛》之前：木马、十年归途，和一个反过来的西游记</title>
       <description>大家好，我是美舟。AI小喇叭，开始广播啦！ 先说一句，本节目由人工智能生成，是一档个人分享，内容都整理自互联网上公开的资料，以英文的一手信息为主，只供参考。今天是2026年8月6号，星期四。 八月十四号，诺兰的新片《奥德赛》要在内地上映了，八号九号先有点映场。这部片子在北美已经上映三个星期，全球票房接近十亿美元。</description>

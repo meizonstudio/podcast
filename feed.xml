@@ -7,7 +7,7 @@
     <title>AI小喇叭</title>
     <description>AI小喇叭，开始广播啦！AI生成的环球话题播客（实验性 · 免费 · 个人分享）：环球见闻、科技与AI、经济与生活、历史与文化。资料来自互联网公开信息（以英文资料为主），中文普通话播报，AI主播美舟主持。Meizon 出品。</description>
     <language>zh-cn</language>
-    <lastBuildDate>Sat, 22 Aug 2026 00:49:32 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 26 Aug 2026 00:23:13 GMT</lastBuildDate>
     <link>https://meizon.me</link>
     <atom:link href="https://meizon.me/feed.xml" rel="self" type="application/rss+xml"/>
     <itunes:author>美舟 · Meizon</itunes:author>
@@ -24,14 +24,14 @@
       <link>https://meizon.me</link>
     </image>
     <item>
-      <title>一页纸的魔法：教AI按你的方式做事</title>
-      <description>二〇二五年十二月十八号，美国的人工智能公司Anthropic，把自己产品里的一个格式，免费公开了出去。就在公开的当天，微软宣布自家给程序员用的编程助手支持了这个格式。到今天，四十多个互相竞争的AI工具，都在读同一种文件——OpenAI的ChatGPT，谷歌的、亚马逊的、字节跳动的，全都在里面。 有人说，这是AI这个行业到目前为止，速度最快的一次全行业达成一致。 而那个让所有人达成一致的东西，说出来你可能不太相信。它就是一页纯文字。里面一行代码都没有，从头到尾，都是用普通人说话的方式写下来的。</description>
-      <enclosure url="https://meizon.me/episodes/2026-08-21-skill-md.mp3" length="6029280" type="audio/mpeg"/>
-      <guid isPermaLink="true">https://meizon.me/episodes/2026-08-21-skill-md.mp3</guid>
-      <pubDate>Sat, 22 Aug 2026 01:00:00 GMT</pubDate>
-      <itunes:duration>16:44</itunes:duration>
+      <title>氛围编程入门（五）：给你的AI一座仓库——数据库</title>
+      <description>大家好，我是美舟。AI小喇叭，开始广播啦！ 本节目由人工智能生成，是一档个人分享，内容都整理自互联网上公开的资料，只供参考。今天是2026年8月25号，星期二。 先给你出一道题。今晚睡前，你把手机上的聊天软件关掉，把电源也按灭，整个人睡过去。可明天早上你一开机，昨天的每一条消息、每一笔订单、银行卡里剩下的每一分钱，全都原封不动地待在那儿。它们昨晚，到底躲在哪儿了？</description>
+      <enclosure url="https://meizon.me/episodes/2026-08-25-vibe-coding-ep05.mp3" length="17121933" type="audio/mpeg"/>
+      <guid isPermaLink="true">https://meizon.me/episodes/2026-08-25-vibe-coding-ep05.mp3</guid>
+      <pubDate>Wed, 26 Aug 2026 01:00:00 GMT</pubDate>
+      <itunes:duration>23:46</itunes:duration>
       <itunes:author>美舟 · Meizon</itunes:author>
-      <itunes:summary>二〇二五年十二月十八号，美国的人工智能公司Anthropic，把自己产品里的一个格式，免费公开了出去。就在公开的当天，微软宣布自家给程序员用的编程助手支持了这个格式。到今天，四十多个互相竞争的AI工具，都在读同一种文件——OpenAI的ChatGPT，谷歌的、亚马逊的、字节跳动的，全都在里面。 有人说，这是AI这个行业到目前为止，速度最快的一次全行业达成一致。 而那个让所有人达成一致的东西，说出来你可能不太相信。它就是一页纯文字。里面一行代码都没有，从头到尾，都是用普通人说话的方式写下来的。</itunes:summary>
+      <itunes:summary>大家好，我是美舟。AI小喇叭，开始广播啦！ 本节目由人工智能生成，是一档个人分享，内容都整理自互联网上公开的资料，只供参考。今天是2026年8月25号，星期二。 先给你出一道题。今晚睡前，你把手机上的聊天软件关掉，把电源也按灭，整个人睡过去。可明天早上你一开机，昨天的每一条消息、每一笔订单、银行卡里剩下的每一分钱，全都原封不动地待在那儿。它们昨晚，到底躲在哪儿了？</itunes:summary>
       <itunes:explicit>no</itunes:explicit>
     </item>
     <item>

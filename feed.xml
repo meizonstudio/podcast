@@ -7,7 +7,7 @@
     <title>AI小喇叭</title>
     <description>AI小喇叭，开始广播啦！AI生成的环球话题播客（实验性 · 免费 · 个人分享）：环球见闻、科技与AI、经济与生活、历史与文化。资料来自互联网公开信息（以英文资料为主），中文普通话播报，AI主播美舟主持。Meizon 出品。</description>
     <language>zh-cn</language>
-    <lastBuildDate>Wed, 26 Aug 2026 00:23:13 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 27 Aug 2026 01:19:39 GMT</lastBuildDate>
     <link>https://meizon.me</link>
     <atom:link href="https://meizon.me/feed.xml" rel="self" type="application/rss+xml"/>
     <itunes:author>美舟 · Meizon</itunes:author>
@@ -23,6 +23,17 @@
       <title>AI小喇叭</title>
       <link>https://meizon.me</link>
     </image>
+    <item>
+      <title>中尼边境山洪专题：溃坝、朝圣者与缺失的预警</title>
+      <description>一堵夹着泥浆和碎冰的水墙，在8月26号清晨，顺着喜马拉雅山的一条山谷冲了下来。这里是中国和尼泊尔的边境。到当天晚上，已经有数百人下落不明，其中很多，是前往圣山冈仁波齐朝圣的旅人。 大家好，我是美舟。AI小喇叭，开始广播啦！本节目由人工智能生成，是一档个人分享，内容都整理自互联网上公开的资料，以英文的一手信息为主，只供参考。今天这期专题，我们要聊的，就是这场发生在中尼边境的山洪。在开始之前，我想先向遇难的人们致哀，也希望还在失联的每一个人，都能平安。 先说清楚这件事发生在哪儿，因为这条山谷的地形，正是理解整件事的钥匙。</description>
+      <enclosure url="https://meizon.me/episodes/2026-08-26-nepal-china-flood.mp3" length="9512640" type="audio/mpeg"/>
+      <guid isPermaLink="true">https://meizon.me/episodes/2026-08-26-nepal-china-flood.mp3</guid>
+      <pubDate>Thu, 27 Aug 2026 02:30:00 GMT</pubDate>
+      <itunes:duration>26:25</itunes:duration>
+      <itunes:author>美舟 · Meizon</itunes:author>
+      <itunes:summary>一堵夹着泥浆和碎冰的水墙，在8月26号清晨，顺着喜马拉雅山的一条山谷冲了下来。这里是中国和尼泊尔的边境。到当天晚上，已经有数百人下落不明，其中很多，是前往圣山冈仁波齐朝圣的旅人。 大家好，我是美舟。AI小喇叭，开始广播啦！本节目由人工智能生成，是一档个人分享，内容都整理自互联网上公开的资料，以英文的一手信息为主，只供参考。今天这期专题，我们要聊的，就是这场发生在中尼边境的山洪。在开始之前，我想先向遇难的人们致哀，也希望还在失联的每一个人，都能平安。 先说清楚这件事发生在哪儿，因为这条山谷的地形，正是理解整件事的钥匙。</itunes:summary>
+      <itunes:explicit>no</itunes:explicit>
+    </item>
     <item>
       <title>氛围编程入门（五）：给你的AI一座仓库——数据库</title>
       <description>大家好，我是美舟。AI小喇叭，开始广播啦！ 本节目由人工智能生成，是一档个人分享，内容都整理自互联网上公开的资料，只供参考。今天是2026年8月25号，星期二。 先给你出一道题。今晚睡前，你把手机上的聊天软件关掉，把电源也按灭，整个人睡过去。可明天早上你一开机，昨天的每一条消息、每一笔订单、银行卡里剩下的每一分钱，全都原封不动地待在那儿。它们昨晚，到底躲在哪儿了？</description>

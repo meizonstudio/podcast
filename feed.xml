@@ -7,7 +7,7 @@
     <title>AI小喇叭</title>
     <description>AI小喇叭，开始广播啦！AI生成的环球话题播客（实验性 · 免费 · 个人分享）：环球见闻、科技与AI、经济与生活、历史与文化。资料来自互联网公开信息（以英文资料为主），中文普通话播报，AI主播美舟主持。Meizon 出品。</description>
     <language>zh-cn</language>
-    <lastBuildDate>Sun, 30 Aug 2026 18:25:38 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 31 Aug 2026 23:33:59 GMT</lastBuildDate>
     <link>https://meizon.me</link>
     <atom:link href="https://meizon.me/feed.xml" rel="self" type="application/rss+xml"/>
     <itunes:author>美舟 · Meizon</itunes:author>
@@ -23,6 +23,17 @@
       <title>AI小喇叭</title>
       <link>https://meizon.me</link>
     </image>
+    <item>
+      <title>2026-08-31 见闻：超级厄尔尼诺、尼泊尔校长的钟、林肯号回家、AI盯上生物学</title>
+      <description>大家好，我是美舟。AI小喇叭，开始广播啦！ 先说一句，本节目由人工智能生成，是一档个人分享，内容都整理自互联网上公开的资料，以英文的一手信息为主，只供参考。今天是2026年8月31号，星期一。 今天第一件事，发生在太平洋的正中间，离我们很远；可它的账单，一年之后会落在你家楼下超市的货架上。</description>
+      <enclosure url="https://meizon.me/episodes/2026-08-31.mp3" length="7835184" type="audio/mpeg"/>
+      <guid isPermaLink="true">https://meizon.me/episodes/2026-08-31.mp3</guid>
+      <pubDate>Tue, 01 Sep 2026 00:00:00 GMT</pubDate>
+      <itunes:duration>21:45</itunes:duration>
+      <itunes:author>美舟 · Meizon</itunes:author>
+      <itunes:summary>大家好，我是美舟。AI小喇叭，开始广播啦！ 先说一句，本节目由人工智能生成，是一档个人分享，内容都整理自互联网上公开的资料，以英文的一手信息为主，只供参考。今天是2026年8月31号，星期一。 今天第一件事，发生在太平洋的正中间，离我们很远；可它的账单，一年之后会落在你家楼下超市的货架上。</itunes:summary>
+      <itunes:explicit>no</itunes:explicit>
+    </item>
     <item>
       <title>2026-08-30 见闻：胰腺癌新药、传英伟达买Hugging Face、Meta和解</title>
       <description>大家好，我是美舟。AI小喇叭，开始广播啦！ 先说一句，本节目由人工智能生成，是一档个人分享，内容都整理自互联网上公开的资料，以英文的一手信息为主，只供参考。今天是2026年8月30号，星期日。 今天先说一个跟很多家庭都有关的消息。有一种癌症，被医生叫做"癌中之王"，得了它，五年之后还活着的人，只有百分之十三左右——这就是胰腺癌，最凶的几种大癌症之一。在美国，每年大约有六万六千人被查出这个病。四十年来，医生们一直知道是什么在推着它长，却始终拿那个东西没办法。而就在这个星期三，美国的药品监管机构，第一次批准了一种能从根子上去掐住它的药。</description>

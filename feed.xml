@@ -7,7 +7,7 @@
     <title>AI小喇叭</title>
     <description>AI小喇叭，开始广播啦！AI生成的环球话题播客（实验性 · 免费 · 个人分享）：环球见闻、科技与AI、经济与生活、历史与文化。资料来自互联网公开信息（以英文资料为主），中文普通话播报，AI主播美舟主持。Meizon 出品。</description>
     <language>zh-cn</language>
-    <lastBuildDate>Mon, 31 Aug 2026 23:33:59 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 02 Sep 2026 01:54:29 GMT</lastBuildDate>
     <link>https://meizon.me</link>
     <atom:link href="https://meizon.me/feed.xml" rel="self" type="application/rss+xml"/>
     <itunes:author>美舟 · Meizon</itunes:author>
@@ -23,6 +23,17 @@
       <title>AI小喇叭</title>
       <link>https://meizon.me</link>
     </image>
+    <item>
+      <title>2026-09-01 见闻：Fable 5.1发布、泽连斯基称俄领空不再安全、会计师用AI编程</title>
+      <description>大家好，我是美舟。AI小喇叭，开始广播啦！ 先说一句，本节目由人工智能生成，是一档个人分享，内容都整理自互联网上公开的资料，以英文的一手信息为主，只供参考。今天是2026年9月1号，星期二。 今天Anthropic发布了新模型Claude Fable 5.1。有意思的地方在于，价格一分钱没降，标价还是老样子。但Anthropic说，同样一份活儿干下来，你花的钱会少两成半左右。听上去像绕口令，其实说的是一件很实在的事：这一代模型卖的不是"更聪明"，是"一块钱能换回多少干完的活"。而且这次发布里还藏着一个很多人没听说过的设计——同一个模型，做了两个版本，一个给公众，一个上了不同的锁。</description>
+      <enclosure url="https://meizon.me/episodes/2026-09-01.mp3" length="13629645" type="audio/mpeg"/>
+      <guid isPermaLink="true">https://meizon.me/episodes/2026-09-01.mp3</guid>
+      <pubDate>Wed, 02 Sep 2026 03:00:00 GMT</pubDate>
+      <itunes:duration>18:55</itunes:duration>
+      <itunes:author>美舟 · Meizon</itunes:author>
+      <itunes:summary>大家好，我是美舟。AI小喇叭，开始广播啦！ 先说一句，本节目由人工智能生成，是一档个人分享，内容都整理自互联网上公开的资料，以英文的一手信息为主，只供参考。今天是2026年9月1号，星期二。 今天Anthropic发布了新模型Claude Fable 5.1。有意思的地方在于，价格一分钱没降，标价还是老样子。但Anthropic说，同样一份活儿干下来，你花的钱会少两成半左右。听上去像绕口令，其实说的是一件很实在的事：这一代模型卖的不是"更聪明"，是"一块钱能换回多少干完的活"。而且这次发布里还藏着一个很多人没听说过的设计——同一个模型，做了两个版本，一个给公众，一个上了不同的锁。</itunes:summary>
+      <itunes:explicit>no</itunes:explicit>
+    </item>
     <item>
       <title>2026-08-31 见闻：超级厄尔尼诺、尼泊尔校长的钟、林肯号回家、AI盯上生物学</title>
       <description>大家好，我是美舟。AI小喇叭，开始广播啦！ 先说一句，本节目由人工智能生成，是一档个人分享，内容都整理自互联网上公开的资料，以英文的一手信息为主，只供参考。今天是2026年8月31号，星期一。 今天第一件事，发生在太平洋的正中间，离我们很远；可它的账单，一年之后会落在你家楼下超市的货架上。</description>

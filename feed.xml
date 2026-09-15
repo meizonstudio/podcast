@@ -7,7 +7,7 @@
     <title>AI小喇叭</title>
     <description>AI小喇叭，开始广播啦！AI生成的环球话题播客（实验性 · 免费 · 个人分享）：环球见闻、科技与AI、经济与生活、历史与文化。资料来自互联网公开信息（以英文资料为主），中文普通话播报，AI主播美舟主持。Meizon 出品。</description>
     <language>zh-cn</language>
-    <lastBuildDate>Tue, 15 Sep 2026 01:25:31 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 15 Sep 2026 02:55:22 GMT</lastBuildDate>
     <link>https://meizon.me</link>
     <atom:link href="https://meizon.me/feed.xml" rel="self" type="application/rss+xml"/>
     <itunes:author>美舟 · Meizon</itunes:author>
@@ -25,13 +25,13 @@
     </image>
     <item>
       <title>夏日金曲特辑：两个夏天，三个名字</title>
-      <description>VoiceStyle: 请用标准普通话朗读，发音清晰、字正腔圆，不带任何地方口音：绝对不要北京口音，不要儿化音，不要台湾腔，不要相声或脱口秀的腔调。人设是一位二十多岁、声音干净清爽的音乐电台主持人，像在跟朋友分享自己喜欢的歌，轻松、亲切、有一点笑意，语速自然。 夏天快过完了。今年夏天，你脑子里有没有一首歌，一响起来，就是这个夏天的味道？如果你想不出来，别担心，这一次连美国人自己都说不出来。那我们就往回看，看看前面那两个夏天，留下了什么。 大家好，我是美舟。AI小喇叭，开始广播啦！</description>
-      <enclosure url="https://meizon.me/episodes/2026-09-14-summer-songs-special.mp3" length="82214445" type="audio/mpeg"/>
+      <description>夏天快过完了。今年夏天，你脑子里有没有一首歌，一响起来，就是这个夏天的味道？如果你想不出来，别担心，这一次连美国人自己都说不出来。那我们就往回看，看看前面那两个夏天，留下了什么。 大家好，我是美舟。AI小喇叭，开始广播啦！ 先说一句，本节目由人工智能生成，是一档个人分享，内容都整理自互联网上公开的资料，以英文的一手信息为主，只供参考。今天这一期是音乐特辑，也是一次小小的设备试机：我们前几天刚给这档节目换了一批新的"制作工具"，包括你现在听到的这个声音，也是新的：一直给我配音的那位老搭档云希，这一期先休息一下，换个新嗓子试试。等一会儿每放完一首歌，我会用几句话，说说这些工具从歌里"听"出了什么。</description>
+      <enclosure url="https://meizon.me/episodes/2026-09-14-summer-songs-special.mp3" length="81076845" type="audio/mpeg"/>
       <guid isPermaLink="true">https://meizon.me/episodes/2026-09-14-summer-songs-special.mp3</guid>
       <pubDate>Tue, 15 Sep 2026 03:00:00 GMT</pubDate>
-      <itunes:duration>34:15</itunes:duration>
+      <itunes:duration>33:46</itunes:duration>
       <itunes:author>美舟 · Meizon</itunes:author>
-      <itunes:summary>VoiceStyle: 请用标准普通话朗读，发音清晰、字正腔圆，不带任何地方口音：绝对不要北京口音，不要儿化音，不要台湾腔，不要相声或脱口秀的腔调。人设是一位二十多岁、声音干净清爽的音乐电台主持人，像在跟朋友分享自己喜欢的歌，轻松、亲切、有一点笑意，语速自然。 夏天快过完了。今年夏天，你脑子里有没有一首歌，一响起来，就是这个夏天的味道？如果你想不出来，别担心，这一次连美国人自己都说不出来。那我们就往回看，看看前面那两个夏天，留下了什么。 大家好，我是美舟。AI小喇叭，开始广播啦！</itunes:summary>
+      <itunes:summary>夏天快过完了。今年夏天，你脑子里有没有一首歌，一响起来，就是这个夏天的味道？如果你想不出来，别担心，这一次连美国人自己都说不出来。那我们就往回看，看看前面那两个夏天，留下了什么。 大家好，我是美舟。AI小喇叭，开始广播啦！ 先说一句，本节目由人工智能生成，是一档个人分享，内容都整理自互联网上公开的资料，以英文的一手信息为主，只供参考。今天这一期是音乐特辑，也是一次小小的设备试机：我们前几天刚给这档节目换了一批新的"制作工具"，包括你现在听到的这个声音，也是新的：一直给我配音的那位老搭档云希，这一期先休息一下，换个新嗓子试试。等一会儿每放完一首歌，我会用几句话，说说这些工具从歌里"听"出了什么。</itunes:summary>
       <itunes:explicit>no</itunes:explicit>
     </item>
     <item>

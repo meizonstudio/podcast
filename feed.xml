@@ -7,7 +7,7 @@
     <title>AI小喇叭</title>
     <description>AI小喇叭，开始广播啦！AI生成的环球话题播客（实验性 · 免费 · 个人分享）：环球见闻、科技与AI、经济与生活、历史与文化。资料来自互联网公开信息（以英文资料为主），中文普通话播报，AI主播美舟主持。Meizon 出品。</description>
     <language>zh-cn</language>
-    <lastBuildDate>Mon, 05 Oct 2026 05:04:31 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 09 Oct 2026 07:08:36 GMT</lastBuildDate>
     <link>https://meizon.me</link>
     <atom:link href="https://meizon.me/feed.xml" rel="self" type="application/rss+xml"/>
     <itunes:author>美舟 · Meizon</itunes:author>
@@ -23,6 +23,17 @@
       <title>AI小喇叭</title>
       <link>https://meizon.me</link>
     </image>
+    <item>
+      <title>氛围编程入门（八）：软件和软件怎么说话——API和MCP</title>
+      <description>大家好，我是美舟。AI小喇叭，开始广播啦！今天是2026年10月9号，星期五。 想象一下这个场景。你拿起手机，对自己的AI助理说了一句："UA857今天准点吗？"UA857，是美国联合航空从旧金山飞上海的航班。几秒钟之后，答案就回来了：几点起飞，晚了多少分钟，在哪个登机口登机。从头到尾，没有人打开航空公司的网站，也没有人去翻哪个App。 这个AI，是怎么知道的？答案，是一个很多人都听过、却很少有人说得清的词：API。</description>
+      <enclosure url="https://meizon.me/episodes/2026-10-09-vibe-coding-ep08.mp3" length="18532029" type="audio/mpeg"/>
+      <guid isPermaLink="true">https://meizon.me/episodes/2026-10-09-vibe-coding-ep08.mp3</guid>
+      <pubDate>Fri, 09 Oct 2026 07:30:00 GMT</pubDate>
+      <itunes:duration>15:25</itunes:duration>
+      <itunes:author>美舟 · Meizon</itunes:author>
+      <itunes:summary>大家好，我是美舟。AI小喇叭，开始广播啦！今天是2026年10月9号，星期五。 想象一下这个场景。你拿起手机，对自己的AI助理说了一句："UA857今天准点吗？"UA857，是美国联合航空从旧金山飞上海的航班。几秒钟之后，答案就回来了：几点起飞，晚了多少分钟，在哪个登机口登机。从头到尾，没有人打开航空公司的网站，也没有人去翻哪个App。 这个AI，是怎么知道的？答案，是一个很多人都听过、却很少有人说得清的词：API。</itunes:summary>
+      <itunes:explicit>no</itunes:explicit>
+    </item>
     <item>
       <title>氛围编程入门（七）：只做选择题的AI——认识Jev</title>
       <description>大家好，我是美舟。AI小喇叭，开始广播啦！今天是2026年10月4号，星期天。 这几个星期，硅谷的AI圈里，有一个新名字被反复提起，叫Jev。它不陪你聊天，不帮你写文章，一个字都不写。它只做一件事：做选择题。可就是这么一个"不会说话"的AI，亮相刚满两个星期，开发ChatGPT的OpenAI就宣布了一个思路几乎一样的服务；不到三个星期，亚马逊和美国网络服务公司Cloudflare也拿出了类似的东西。 本节目由人工智能生成，是一档个人分享，内容整理自互联网上公开的资料，也有制作人第一手的经历，只供参考。</description>

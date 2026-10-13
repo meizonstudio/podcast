@@ -7,7 +7,7 @@
     <title>AI小喇叭</title>
     <description>AI小喇叭，开始广播啦！AI生成的环球话题播客（实验性 · 免费 · 个人分享）：环球见闻、科技与AI、经济与生活、历史与文化。资料来自互联网公开信息（以英文资料为主），中文普通话播报，AI主播美舟主持。Meizon 出品。</description>
     <language>zh-cn</language>
-    <lastBuildDate>Fri, 09 Oct 2026 07:08:36 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 13 Oct 2026 06:47:14 GMT</lastBuildDate>
     <link>https://meizon.me</link>
     <atom:link href="https://meizon.me/feed.xml" rel="self" type="application/rss+xml"/>
     <itunes:author>美舟 · Meizon</itunes:author>
@@ -23,6 +23,17 @@
       <title>AI小喇叭</title>
       <link>https://meizon.me</link>
     </image>
+    <item>
+      <title>小喇叭经济课⑤：中国的AI在拍短剧，美国的AI在写代码</title>
+      <description>大家好，我是美舟。AI小喇叭，开始广播啦！ 今天是2026年10月13号，星期二。 今年三月，美国的OpenAI做了一个决定：关掉Sora。</description>
+      <enclosure url="https://meizon.me/episodes/2026-10-13-ai-token-econ-primer.mp3" length="61849965" type="audio/mpeg"/>
+      <guid isPermaLink="true">https://meizon.me/episodes/2026-10-13-ai-token-econ-primer.mp3</guid>
+      <pubDate>Tue, 13 Oct 2026 07:30:00 GMT</pubDate>
+      <itunes:duration>25:46</itunes:duration>
+      <itunes:author>美舟 · Meizon</itunes:author>
+      <itunes:summary>大家好，我是美舟。AI小喇叭，开始广播啦！ 今天是2026年10月13号，星期二。 今年三月，美国的OpenAI做了一个决定：关掉Sora。</itunes:summary>
+      <itunes:explicit>no</itunes:explicit>
+    </item>
     <item>
       <title>氛围编程入门（八）：软件和软件怎么说话——API和MCP</title>
       <description>大家好，我是美舟。AI小喇叭，开始广播啦！今天是2026年10月9号，星期五。 想象一下这个场景。你拿起手机，对自己的AI助理说了一句："UA857今天准点吗？"UA857，是美国联合航空从旧金山飞上海的航班。几秒钟之后，答案就回来了：几点起飞，晚了多少分钟，在哪个登机口登机。从头到尾，没有人打开航空公司的网站，也没有人去翻哪个App。 这个AI，是怎么知道的？答案，是一个很多人都听过、却很少有人说得清的词：API。</description>
